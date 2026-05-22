@@ -1,0 +1,26 @@
+{
+  "id": "207b3ab1-a9e2-4bdf-9278-387deafee629",
+  "name": "dh-annual-report-2023-24-procurement-including-ict-and-advertising",
+  "title": "DH Annual Report 2023-24 Procurement (including ICT and advertising)",
+  "notes": "This is a machine-readable version of the procurement dataset from the Department of Health 2023-24 Annual Report.\r\n\r\nIt contains the following tables:\r\n\r\n* Consultancy expenditure - Details of consultancies (valued at $10,000 or greater)\r\n* Reviews and studies expenditure\r\n* Emergency procurement\r\n* Information and communication technology expenditure\r\n* Government advertising expenditure\r\n\r\n---\r\n\r\nFor additional information and context for these tables, please read from page 84 in the Annual Report. https://www.health.vic.gov.au/department-of-health-annual-report",
+  "organization": "Department of Health",
+  "tags": [
+    "2023 to 2024",
+    "Department of Health",
+    "Procurement",
+    "accessibility",
+    "annual report",
+    "expenditure",
+    "machine-readable"
+  ],
+  "num_resources": 1,
+  "resources": [
+    {
+      "id": "fa87eb44-113c-48eb-b148-5ee25cf51a98",
+      "name": "Procurement including ICT and advertising- 2023-24 machine-readable dataset",
+      "format": "XLSX",
+      "url": "https://www.health.vic.gov.au/sites/default/files/2025-02/2023-24-annual-report-machine-readable-dataset-procurement-ict-advertising-expenditure_0.xlsx",
+      "datastore_active": true
+    }
+  ]
+}

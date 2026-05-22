@@ -1,0 +1,24 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+namespace: prompcorp-tender-intelligence
+resources:
+  - namespace.yaml
+  - configmap.yaml
+  - pvc-postgres.yaml
+  - pvc-redis.yaml
+  - postgres-deployment.yaml
+  - postgres-service.yaml
+  - redis-deployment.yaml
+  - redis-service.yaml
+  - backend-deployment.yaml
+  - backend-service.yaml
+  - frontend-deployment.yaml
+  - frontend-service.yaml
+  - ingestor-deployment.yaml
+  - ingress.yaml
+configMapGenerator:
+  - name: postgres-init-sql
+    files:
+      - init.sql=../backend/db/init.sql
+generatorOptions:
+  disableNameSuffixHash: true

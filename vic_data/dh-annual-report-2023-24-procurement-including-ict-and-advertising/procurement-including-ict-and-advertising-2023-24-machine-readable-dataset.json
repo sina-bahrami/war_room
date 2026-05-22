@@ -1,0 +1,77 @@
+{
+  "resource_id": "fa87eb44-113c-48eb-b148-5ee25cf51a98",
+  "resource_name": "Procurement including ICT and advertising- 2023-24 machine-readable dataset",
+  "format": "XLSX",
+  "source_url": "https://www.health.vic.gov.au/sites/default/files/2025-02/2023-24-annual-report-machine-readable-dataset-procurement-ict-advertising-expenditure_0.xlsx",
+  "records": [
+    {
+      "_id": 1,
+      "Department of Health 2023-24 Annual Report - machine readable d": "Procurement incl. ICT expenditure"
+    },
+    {
+      "_id": 2,
+      "Department of Health 2023-24 Annual Report - machine readable d": "Contents"
+    },
+    {
+      "_id": 3,
+      "Department of Health 2023-24 Annual Report - machine readable d": "Consultancy expenditure - Details of consultancies (valued at $10,000 or greater)"
+    },
+    {
+      "_id": 4,
+      "Department of Health 2023-24 Annual Report - machine readable d": "Reviews and studies expenditure"
+    },
+    {
+      "_id": 5,
+      "Department of Health 2023-24 Annual Report - machine readable d": "Emergency procurement"
+    },
+    {
+      "_id": 6,
+      "Department of Health 2023-24 Annual Report - machine readable d": "Information and communication technology expenditure"
+    },
+    {
+      "_id": 7,
+      "Department of Health 2023-24 Annual Report - machine readable d": "Government advertising expenditure"
+    },
+    {
+      "_id": 8,
+      "Department of Health 2023-24 Annual Report - machine readable d": "Accessibility"
+    },
+    {
+      "_id": 9,
+      "Department of Health 2023-24 Annual Report - machine readable d": "To receive this data in another format, email corporate reporting"
+    },
+    {
+      "_id": 10,
+      "Department of Health 2023-24 Annual Report - machine readable d": "<corporate.reporting@health.vic.gov.au>."
+    },
+    {
+      "_id": 11,
+      "Department of Health 2023-24 Annual Report - machine readable d": "Copyright"
+    },
+    {
+      "_id": 12,
+      "Department of Health 2023-24 Annual Report - machine readable d": "With the exception of any images, photographs or branding (including, but not limited to the Victorian Coat of Arms, the Victorian Government logo or the Department of Health logo), this work, Department of Health annual report 2023-24, is licensed under a Creative Commons Attribution 4.0 licence."
+    },
+    {
+      "_id": 13,
+      "Department of Health 2023-24 Annual Report - machine readable d": "The terms and conditions of this licence, including disclaimer of warranties and limitation of liability are available at Creative Commons Attribution 4.0 International <https://creativecommons.org/licenses/by/4.0/legalcode>."
+    },
+    {
+      "_id": 14,
+      "Department of Health 2023-24 Annual Report - machine readable d": "You are free to reuse the work under that licence, on the condition that you credit the State of Victoria, Australia (Department of Health) as the author and/or owner of the work, indicate if any changes have been made to the work and comply with the other licence terms."
+    },
+    {
+      "_id": 15,
+      "Department of Health 2023-24 Annual Report - machine readable d": "In this document, where the term ‘Aboriginal’ is used it refers to both Aboriginal and Torres Strait Islander people. Indigenous, First Peoples or Koori/Koorie is retained when it is part of the title of a report, program or quotation."
+    },
+    {
+      "_id": 16,
+      "Department of Health 2023-24 Annual Report - machine readable d": "ISSN 2653-1852 (online)"
+    },
+    {
+      "_id": 17,
+      "Department of Health 2023-24 Annual Report - machine readable d": "Available at Department of Health annual report <https://www.health.vic.gov.au/department-of-health-annual-report>"
+    }
+  ],
+  "total": 17
+}

@@ -1,0 +1,25 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: prompcorp-platform-config
+  namespace: prompcorp-tender-intelligence
+  labels:
+    app.kubernetes.io/name: prompcorp-tender-intelligence
+    app.kubernetes.io/component: shared-config
+data:
+  PROJECT_NAME: "Prompcorp Tender Intelligence"
+  POSTGRES_USER: "prompcorp"
+  POSTGRES_DB: "tender_intelligence"
+  POSTGRES_HOST: "postgres"
+  POSTGRES_PORT: "5432"
+  REDIS_HOST: "redis"
+  REDIS_PORT: "6379"
+  ALLOWED_ORIGINS: "http://localhost:32080,http://127.0.0.1:32080,https://prompcorp-tenders.local"
+  INGESTION_INTERVAL_SECONDS: "900"
+  ENABLE_SAMPLE_DATA: "false"
+  WARROOM_JSON_SOURCE_URL: "/project-root/warroom_dashboard_data.json"
+  AUSTENDER_SOURCE_URL: ""
+  NSW_ETENDERING_SOURCE_URL: ""
+  VIC_TENDERS_SOURCE_URL: ""
+  QLD_PROCUREMENT_SOURCE_URL: ""
+  PROMPCORP_PIPELINE_SOURCE_URL: ""

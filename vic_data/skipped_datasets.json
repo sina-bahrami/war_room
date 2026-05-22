@@ -1,0 +1,114 @@
+[
+  {
+    "dataset_id": "f290ebe8-70a0-43e0-804c-52c5f5b90bdf",
+    "dataset_title": "Expenditure on consultancies by the Department of Justice",
+    "reason": "All candidate resources were unavailable (stale or missing URLs)",
+    "resources": [
+      {
+        "id": "5a2da38b-539c-42ee-a6e1-f09161313197",
+        "name": "Expenditure on consultancies by the Department of Justice",
+        "format": "XLSX",
+        "url": "https://www.dtf.vic.gov.au/files/de3d1078-dae8-4043-9f1c-a1cb0106cf88/DOJ-Consultancies.xlsx",
+        "datastore_active": false
+      }
+    ]
+  },
+  {
+    "dataset_id": "d6b0414f-9fc2-4268-af68-92ef5b4a4376",
+    "dataset_title": "Expenditure on consultancies by the Department of Primary Industries",
+    "reason": "All candidate resources were unavailable (stale or missing URLs)",
+    "resources": [
+      {
+        "id": "5d99e75f-ae02-43a2-a120-6c85af785bb3",
+        "name": "Expenditure on consultancies by the Department of Primary Industries",
+        "format": "XLSX",
+        "url": "https://www.dtf.vic.gov.au/files/738415b3-a326-49bf-853e-a1cb0106eb20/DPI-Consultancies.xlsx",
+        "datastore_active": false
+      }
+    ]
+  },
+  {
+    "dataset_id": "9b045aed-36db-4534-9b83-5cd9e67d32b9",
+    "dataset_title": "Expenditure on consultancies by the Department of Transport",
+    "reason": "All candidate resources were unavailable (stale or missing URLs)",
+    "resources": [
+      {
+        "id": "cbb1f1f0-fc32-4b11-a24f-eec0235b05c5",
+        "name": "Expenditure on consultancies by the Department of Transport",
+        "format": "XLSX",
+        "url": "https://www.dtf.vic.gov.au/files/ebe6e817-f3b0-4f9e-b4ea-a1cb0106d6c8/DOT-Consultancies.xlsx",
+        "datastore_active": false
+      }
+    ]
+  },
+  {
+    "dataset_id": "73186d93-944e-4c1e-ba30-6beaf46cd2c0",
+    "dataset_title": "Expenditure on consultancies by the Department of Health",
+    "reason": "All candidate resources were unavailable (stale or missing URLs)",
+    "resources": [
+      {
+        "id": "9d04cbeb-d601-4349-bdf4-490810d56a2b",
+        "name": "Expenditure on consultancies by the Department of Health",
+        "format": "XLSX",
+        "url": "https://www.dtf.vic.gov.au/files/89c325f0-81c7-466e-9916-a1cb0106c73d/DoH-Consultancies.xlsx",
+        "datastore_active": false
+      }
+    ]
+  },
+  {
+    "dataset_id": "6d0c39fb-f57f-4392-9a90-2f54db0e2af9",
+    "dataset_title": "Expenditure on consultancies by the Department of Human Services",
+    "reason": "All candidate resources were unavailable (stale or missing URLs)",
+    "resources": [
+      {
+        "id": "27b6be9f-fd00-48fe-86f0-e1b86cc33b36",
+        "name": "Expenditure on consultancies by the Department of Human Services",
+        "format": "XLSX",
+        "url": "https://www.dtf.vic.gov.au/files/6436a9a8-a586-4468-aa38-a1cb0106bfc9/DHS-Consultancies.xlsx",
+        "datastore_active": false
+      }
+    ]
+  },
+  {
+    "dataset_id": "de23979a-afdf-46c8-9201-878ac4f2a6ae",
+    "dataset_title": "Expenditure on consultancies by the Department of Planning and Community Development",
+    "reason": "All candidate resources were unavailable (stale or missing URLs)",
+    "resources": [
+      {
+        "id": "04384768-6da0-493f-a650-69e458644c4f",
+        "name": "Expenditure on consultancies by the Department of Planning and Community Development",
+        "format": "XLSX",
+        "url": "https://www.dtf.vic.gov.au/files/c0465f2c-2ae3-4984-907b-a1cb0106e47f/DPCD-Consultancies.xlsx",
+        "datastore_active": false
+      }
+    ]
+  },
+  {
+    "dataset_id": "b0ff3bd6-dcf1-4a3f-aa35-6d732b0bbc5f",
+    "dataset_title": "Expenditure on consultancies by the Department of Sustainability and Environment",
+    "reason": "All candidate resources were unavailable (stale or missing URLs)",
+    "resources": [
+      {
+        "id": "970a07d2-0d07-4e4a-bae7-c4c17a6889be",
+        "name": "Expenditure on consultancies by the Department of Sustainability and Environment",
+        "format": "XLSX",
+        "url": "https://www.dtf.vic.gov.au/files/446b832f-4935-4010-9308-a1cb0106f278/DSE-Consultancies.xlsx",
+        "datastore_active": false
+      }
+    ]
+  },
+  {
+    "dataset_id": "847c3375-4475-471a-a9e8-1ad613c0cc9c",
+    "dataset_title": "Expenditure on consultancies by the Department of Business and Innovation",
+    "reason": "All candidate resources were unavailable (stale or missing URLs)",
+    "resources": [
+      {
+        "id": "bc0ded42-ec1d-4c54-addf-5fca200cce3a",
+        "name": "Expenditure on consultancies by the Department of Business and Innovation",
+        "format": "XLSX",
+        "url": "https://www.dtf.vic.gov.au/files/82c02ceb-22f2-4550-8e73-a1cb0106ac3f/DBI-Consultancies.xlsx",
+        "datastore_active": false
+      }
+    ]
+  }
+]

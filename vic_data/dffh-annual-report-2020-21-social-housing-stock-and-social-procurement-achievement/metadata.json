@@ -1,0 +1,21 @@
+{
+  "id": "55162407-b75c-4d32-aee5-dbec75920144",
+  "name": "dffh-annual-report-2020-21-social-housing-stock-and-social-procurement-achievement",
+  "title": "DFFH annual report 2020-21 - Social housing stock and Social procurement achievement",
+  "notes": "Social housing balance, achievement against Social procurement framework.",
+  "organization": "Department of Families, Fairness and Housing",
+  "tags": [
+    "Social housing",
+    "Social procurement"
+  ],
+  "num_resources": 1,
+  "resources": [
+    {
+      "id": "468d3098-e7dd-4b87-b900-3924191f1d1e",
+      "name": "Social housing stock and Social procurement achievement 2020-21 XLSX",
+      "format": "XLSX",
+      "url": "https://www.dffh.vic.gov.au/social-housing-stock-and-social-procurement-achievement-dffh-2021-21-machine-readable-datasets",
+      "datastore_active": false
+    }
+  ]
+}

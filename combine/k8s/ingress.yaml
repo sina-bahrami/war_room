@@ -1,0 +1,21 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: frontend
+  namespace: prompcorp-tender-intelligence
+  labels:
+    app.kubernetes.io/name: prompcorp-tender-intelligence
+    app.kubernetes.io/component: frontend
+spec:
+  ingressClassName: nginx
+  rules:
+    - host: prompcorp-tenders.local
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: frontend
+                port:
+                  number: 80

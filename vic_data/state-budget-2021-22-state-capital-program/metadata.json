@@ -1,0 +1,22 @@
+{
+  "id": "802f5d48-40eb-435b-ba7b-314e8fbd5947",
+  "name": "state-budget-2021-22-state-capital-program",
+  "title": "State budget 2021-22 State Capital Program",
+  "notes": "The State Capital Program (Budget Paper No. 4) summarises the capital projects the Government will be undertaking in 2021-22 and future years.\r\n\r\nBudget Paper No. 4 includes:\r\n\r\nprojects and programs of work to commence in 2021-22;\r\nindividual state capital programs and projects currently under way; and\r\nprograms expected to be completed in 2021-22.\r\nThe information is current as at 12 May 2021.\r\n\r\nFor a number of projects, the total estimated investment (TEI) is expressed as 'tbc'. For the purpose of the attached dataset, the totals include expenditure for projects with ‘tbc’ cash flows with the exception of Justice and Community Safety, which does not report 'tbc' funding at this time as commercial arrangements are still to be finalised.\r\n\r\nIn Chapter 2 General government capital program 2021-22 and Chapter 3 Public non-financial corporations capital program 2021-22, some project information may not be reported for the following reasons:\r\n\r\nwhere a project is subject to further planning and development;\r\ndue to undertaking a procurement process where disclosure of capital costs may impact potential pricing of tenders from the market; and\r\nwhere funding based on a preliminary cost estimate has been placed in contingency and not specifically disclosed and will require final consideration before the total estimated investment is disclosed.\r\nIn addition to Definitions and style conventions contained in Budget Paper No. 4, below are definitions of key terms to further assist understanding of the State Capital Program and the attached dataset.\r\n\r\nDefinition of key terms\r\nGovernment Infrastructure Investment – represents the sum of purchases of non-financial assets, net cash flows from investments in financial assets for policy purposes, and sales of non-financial assets (net government infrastructure investment which is sourced from the general government cash flow statement). In addition, investment in government infrastructure also includes public private partnerships infrastructure investment.\r\n\r\nPPP Infrastructure Investment – represents the annual capital expenditure cash flows modelled in the financial model forming part of a public private partnership (PPP) contract, exclusive of capitalised interest and any Victorian Government capital contribution. This amount is separately calculated and is not sourced from a particular line of a financial statement. The value of this line varies from year to year depending on the number, size and timing of projects being delivered as PPPs. The list of PPP projects currently underway is contained in Budget Paper No. 4.\r\n\r\nGenerally, the amount is the same as it relates to projects in Chapters 2 and 3. At times, there may be differences as the investment may be broader than an individual project (e.g. equity investment), or the entity may also contribute some of its own funds to a project in addition to the general government contribution.   ",
+  "organization": "DTF - Corporate and Government Services",
+  "tags": [
+    "Victorian State Budget 2021-22",
+    "capital projects",
+    "state capital program"
+  ],
+  "num_resources": 1,
+  "resources": [
+    {
+      "id": "04faebc3-c919-466c-8195-78e2d9401451",
+      "name": "State Capital Program ",
+      "format": "xslx",
+      "url": "https://www.dtf.vic.gov.au/sites/default/files/document/2021-22%20State%20Capital%20Program.xlsx",
+      "datastore_active": false
+    }
+  ]
+}

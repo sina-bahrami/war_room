@@ -1,0 +1,1744 @@
+{
+  "resource_id": "be0c32b3-48ff-440b-849a-b73048d44c2d",
+  "resource_name": "Fair Jobs Code application register CSV",
+  "format": "csv",
+  "source_url": "https://fjc-vic-gov.my.salesforce-sites.com/downloadApplicationExport",
+  "records": [
+    {
+      "BusinessName": "BATES SMART ARCHITECTS PTY LTD",
+      " TradeName": "Bates Smart Architects",
+      " ABN": 68094740986,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "23/04/2026",
+      " DateReceivedSort": "2026/04/23"
+    },
+    {
+      "BusinessName": "The Trustee for THE MULCAIRE FAMILY TRUST",
+      " TradeName": "Eco Safe Pest Control Ptyl ATF Mulcaire Family Tru",
+      " ABN": 89485040099,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "12/04/2023",
+      " DateReceivedSort": "2023/04/12"
+    },
+    {
+      "BusinessName": "VANTAGE INTEGRATED SERVICES PTY LTD",
+      " TradeName": "Vantage Integrated Services",
+      " ABN": 15600224780,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "25/03/2024",
+      " DateReceivedSort": "2024/03/25"
+    },
+    {
+      "BusinessName": "HUGH KINGSLEY PTY LTD AS TRUSTEE FOR THE KINGSLEY INVESTMENT TRUST",
+      " TradeName": null,
+      " ABN": 30539890135,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "27/06/2024",
+      " DateReceivedSort": "2024/06/27"
+    },
+    {
+      "BusinessName": "APAC GEOSPATIAL PTY LTD",
+      " TradeName": "APAC Geospatial Pty Ltd",
+      " ABN": 72642929511,
+      " ApplicationType": "Pre-Assessment Certificate Renewal",
+      " DateReceived": "22/04/2026",
+      " DateReceivedSort": "2026/04/22"
+    },
+    {
+      "BusinessName": "MULLER PTY LTD ATF MULLER UNIT TRUST",
+      " TradeName": null,
+      " ABN": 33650179041,
+      " ApplicationType": "Pre-Assessment Certificate Renewal",
+      " DateReceived": "01/05/2026",
+      " DateReceivedSort": "2026/05/01"
+    },
+    {
+      "BusinessName": "PETER ELLIOTT PTY. LTD.",
+      " TradeName": "Peter Elliott Architecture + Urban Design",
+      " ABN": 16005803476,
+      " ApplicationType": "Pre-Assessment Certificate Renewal",
+      " DateReceived": "04/05/2026",
+      " DateReceivedSort": "2026/05/04"
+    },
+    {
+      "BusinessName": "TRADE 22 PTY LTD",
+      " TradeName": "Trade 22 Pty Ltd",
+      " ABN": 11669846897,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "28/12/2024",
+      " DateReceivedSort": "2024/12/28"
+    },
+    {
+      "BusinessName": "M1 TRAFFIC CONTROL PTY LTD",
+      " TradeName": "M1 Traffic & Labour Services",
+      " ABN": 49139453268,
+      " ApplicationType": "Pre-Assessment Certificate Renewal",
+      " DateReceived": "28/01/2025",
+      " DateReceivedSort": "2025/01/28"
+    },
+    {
+      "BusinessName": "BEMAC SECURITY PTY. LIMITED",
+      " TradeName": "Security",
+      " ABN": 46003482577,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "25/02/2025",
+      " DateReceivedSort": "2025/02/25"
+    },
+    {
+      "BusinessName": "M1 TRAFFIC CONTROL GEELONG PTY LTD",
+      " TradeName": "M1 Traffic & Labour Services Geelong",
+      " ABN": 93661080431,
+      " ApplicationType": "Pre-Assessment Certificate Renewal",
+      " DateReceived": "27/02/2025",
+      " DateReceivedSort": "2025/02/27"
+    },
+    {
+      "BusinessName": "THE TRUSTEE FOR JMA TRUST",
+      " TradeName": "JMA Engineering",
+      " ABN": 67704615800,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "25/03/2025",
+      " DateReceivedSort": "2025/03/25"
+    },
+    {
+      "BusinessName": "I & D GROUP PTY LTD AS TRUSTEE FOR I & D GROUP UNIT TRUST 1",
+      " TradeName": null,
+      " ABN": 44901903497,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "07/05/2025",
+      " DateReceivedSort": "2025/05/07"
+    },
+    {
+      "BusinessName": "The Trustee for THE SALVATION ARMY (VICTORIA) PROPERTY TRUST",
+      " TradeName": "Employment Plus",
+      " ABN": 64472238844,
+      " ApplicationType": "Pre-Assessment Certificate Renewal",
+      " DateReceived": "01/05/2026",
+      " DateReceivedSort": "2026/05/01"
+    },
+    {
+      "BusinessName": "PREMIUM HEALTH PTY LTD AS TRUSTEE FOR THE PHILLIPA WILSON & FRANK CAVALLARO FAMILY TRUST",
+      " TradeName": null,
+      " ABN": 24692649946,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "04/07/2025",
+      " DateReceivedSort": "2025/07/04"
+    },
+    {
+      "BusinessName": "GAZELLE CONSTRUCTIONS PTY. LTD.",
+      " TradeName": "Gazelle Construction Pty Ltd",
+      " ABN": 24006677961,
+      " ApplicationType": "Pre-Assessment Certificate Renewal",
+      " DateReceived": "11/08/2025",
+      " DateReceivedSort": "2025/08/11"
+    },
+    {
+      "BusinessName": "UNITED LIFTS AUST PTY LTD as trustee for THE ULS UNIT TRUST",
+      " TradeName": null,
+      " ABN": 70664749131,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "11/08/2025",
+      " DateReceivedSort": "2025/08/11"
+    },
+    {
+      "BusinessName": "PROMISED SPACE BUSINESS SERVICE PTY LTD",
+      " TradeName": "Promised space business service",
+      " ABN": 64656065682,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "04/11/2025",
+      " DateReceivedSort": "2025/11/04"
+    },
+    {
+      "BusinessName": "TECHNICALLY MINDED PTY LTD",
+      " TradeName": "TECHNICALLY MINDED PTY LTD",
+      " ABN": 27630787478,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "27/04/2026",
+      " DateReceivedSort": "2026/04/27"
+    },
+    {
+      "BusinessName": "IXOM OPERATIONS PTY LTD",
+      " TradeName": "Ixom Operations",
+      " ABN": 51600546512,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "09/02/2026",
+      " DateReceivedSort": "2026/02/09"
+    },
+    {
+      "BusinessName": "JO & WILL PTY LTD",
+      " TradeName": "Jo&Will Pty Ltd",
+      " ABN": 52656368142,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "06/02/2026",
+      " DateReceivedSort": "2026/02/06"
+    },
+    {
+      "BusinessName": "YWCA HOUSING",
+      " TradeName": "YWCA Housing",
+      " ABN": 60133272116,
+      " ApplicationType": "Pre-Assessment Certificate Renewal",
+      " DateReceived": "14/04/2026",
+      " DateReceivedSort": "2026/04/14"
+    },
+    {
+      "BusinessName": "SCHINDLER LIFTS AUSTRALIA PTY. LTD.",
+      " TradeName": "Schindler Lifts Australia Pty Ltd",
+      " ABN": 19005838773,
+      " ApplicationType": "Pre-Assessment Certificate Renewal",
+      " DateReceived": "01/05/2026",
+      " DateReceivedSort": "2026/05/01"
+    },
+    {
+      "BusinessName": "Stichting Deltares",
+      " TradeName": "Stichting Deltares",
+      " ABN": 47280750437,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "30/04/2026",
+      " DateReceivedSort": "2026/04/30"
+    },
+    {
+      "BusinessName": "OOH HOLDINGS PTY LTD AS TRUSTEE FOR OOH HOLDINGS TRUST",
+      " TradeName": null,
+      " ABN": 89477976133,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "02/03/2026",
+      " DateReceivedSort": "2026/03/02"
+    },
+    {
+      "BusinessName": "SPORTSREADY EDUCATION PTY LTD ATF THE SPORTSREADY EDUCATION UNIT TRUST",
+      " TradeName": null,
+      " ABN": 35733794513,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "11/03/2026",
+      " DateReceivedSort": "2026/03/11"
+    },
+    {
+      "BusinessName": "E-CREATORS PTY. LIMITED",
+      " TradeName": "Open LMS",
+      " ABN": 39154563336,
+      " ApplicationType": "Pre-Assessment Certificate Renewal",
+      " DateReceived": "06/05/2026",
+      " DateReceivedSort": "2026/05/06"
+    },
+    {
+      "BusinessName": "ALLEGIS GROUP AUSTRALIA PTY LTD.",
+      " TradeName": "TEKsystems",
+      " ABN": 81105143324,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "05/05/2026",
+      " DateReceivedSort": "2026/05/05"
+    },
+    {
+      "BusinessName": "ALLEN MOVING & STORAGE PTY LTD",
+      " TradeName": "Allen Moving & Storage",
+      " ABN": 39639284816,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "19/03/2026",
+      " DateReceivedSort": "2026/03/19"
+    },
+    {
+      "BusinessName": "TOTAL COMPUTER TECHNOLOGY PTY LIMITED",
+      " TradeName": "TOTAL COMPUTER TECHNOLOGY PTY LIMITED",
+      " ABN": 25081054579,
+      " ApplicationType": "Pre-Assessment Certificate Renewal",
+      " DateReceived": "30/04/2026",
+      " DateReceivedSort": "2026/04/30"
+    },
+    {
+      "BusinessName": "CLOUD SOFTWARE GROUP AUSTRALIA PTY LTD",
+      " TradeName": "Cloud Software Group Australia",
+      " ABN": 94092002321,
+      " ApplicationType": "Pre-Assessment Certificate Renewal",
+      " DateReceived": "28/04/2026",
+      " DateReceivedSort": "2026/04/28"
+    },
+    {
+      "BusinessName": "RURAL FIBRE CO PTY LTD",
+      " TradeName": "Rural Fibre Co",
+      " ABN": 44682917924,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "23/04/2026",
+      " DateReceivedSort": "2026/04/23"
+    },
+    {
+      "BusinessName": "XPATIAL PTY LTD",
+      " TradeName": "XPATIAL",
+      " ABN": 28654223953,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "24/03/2026",
+      " DateReceivedSort": "2026/03/24"
+    },
+    {
+      "BusinessName": "RAIL MAINTENANCE SERVICES PTY LTD AS THE TRUSTEE FOR RAIL MAINTENANCE SERVICES UNIT TRUST",
+      " TradeName": null,
+      " ABN": 53074783626,
+      " ApplicationType": "Pre-Assessment Certificate Renewal",
+      " DateReceived": "14/04/2026",
+      " DateReceivedSort": "2026/04/14"
+    },
+    {
+      "BusinessName": "SUN DATA SOLUTIONS PTY LTD",
+      " TradeName": "Yarra Drones",
+      " ABN": 96624347888,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "24/03/2026",
+      " DateReceivedSort": "2026/03/24"
+    },
+    {
+      "BusinessName": "SHIVAAY TECHNOLOGIES PTY LTD",
+      " TradeName": "Shivaay Technologies Pty Ltd",
+      " ABN": 95639969145,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "26/03/2026",
+      " DateReceivedSort": "2026/03/26"
+    },
+    {
+      "BusinessName": "ENOCH CIVIL PTY LTD",
+      " TradeName": "Enoch Civil P/L",
+      " ABN": 68111113770,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "26/03/2026",
+      " DateReceivedSort": "2026/03/26"
+    },
+    {
+      "BusinessName": "ORION CONSTRUCTIONS (AUST) PTY. LTD.",
+      " TradeName": "ORION CONSTRUCTIONS (AUST) PTY. LTD.",
+      " ABN": 73651492830,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "26/03/2026",
+      " DateReceivedSort": "2026/03/26"
+    },
+    {
+      "BusinessName": "PACE DEVELOPMENT CO 18 PTY LTD",
+      " TradeName": "Pace Development Co 18 Pty Ltd",
+      " ABN": 46651223399,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "27/03/2026",
+      " DateReceivedSort": "2026/03/27"
+    },
+    {
+      "BusinessName": "OCT EMISSIONS SOLUTIONS PTY LTD",
+      " TradeName": "Bio2X  / OCTES",
+      " ABN": 58648683774,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "27/03/2026",
+      " DateReceivedSort": "2026/03/27"
+    },
+    {
+      "BusinessName": "REZA DEVELOPMENTS PTY LTD AS TRUSTEE FOR REZA DEVELOPMENTS TRUST",
+      " TradeName": "REZA Developments",
+      " ABN": 36739544696,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "29/03/2026",
+      " DateReceivedSort": "2026/03/29"
+    },
+    {
+      "BusinessName": "PRIME SERVICES AUSTRALIA PTY LTD",
+      " TradeName": "Prime Services Australia Pty Ltd",
+      " ABN": 45678980599,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "02/04/2026",
+      " DateReceivedSort": "2026/04/02"
+    },
+    {
+      "BusinessName": "TMJ ELECTRICAL PTY LTD",
+      " TradeName": "TMJ ELECTRICAL PTY LTD",
+      " ABN": 75684027736,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "06/04/2026",
+      " DateReceivedSort": "2026/04/06"
+    },
+    {
+      "BusinessName": "Purple Ace Pty Ltd",
+      " TradeName": "Quality Construction & Maintenance",
+      " ABN": 81122950887,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "14/04/2026",
+      " DateReceivedSort": "2026/04/14"
+    },
+    {
+      "BusinessName": "CANOPY (VIC) PTY LTD",
+      " TradeName": "CANOPY FITOUTS",
+      " ABN": 11609587671,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "08/04/2026",
+      " DateReceivedSort": "2026/04/08"
+    },
+    {
+      "BusinessName": "REWILD AGENCY PTY LTD ATF REWILD AGENCY UNIT TRUST",
+      " TradeName": null,
+      " ABN": 42412469207,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "27/04/2026",
+      " DateReceivedSort": "2026/04/27"
+    },
+    {
+      "BusinessName": "SPARK CONSTRUCTIONS PTY LTD AS TRUSTEE FOR SPARK CONSTRUCTIONS TRUST",
+      " TradeName": "Spark Constructions PTY LTD",
+      " ABN": 30982183232,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "10/04/2026",
+      " DateReceivedSort": "2026/04/10"
+    },
+    {
+      "BusinessName": "SHANKSARN PTY LTD",
+      " TradeName": "Contemporary Catering",
+      " ABN": 84664237414,
+      " ApplicationType": "Pre-Assessment Certificate Renewal",
+      " DateReceived": "10/04/2026",
+      " DateReceivedSort": "2026/04/10"
+    },
+    {
+      "BusinessName": "ALT LEAGUE PTY LTD",
+      " TradeName": "Alt League Pty Ltd",
+      " ABN": 94654487564,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "10/04/2026",
+      " DateReceivedSort": "2026/04/10"
+    },
+    {
+      "BusinessName": "HIFLOW INDUSTRIES PTY LTD",
+      " TradeName": "Hiflow Industries Pty Ltd",
+      " ABN": 33120158974,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "13/04/2026",
+      " DateReceivedSort": "2026/04/13"
+    },
+    {
+      "BusinessName": "THE QUANTIUM GROUP PTY LIMITED",
+      " TradeName": "Quantium",
+      " ABN": 45102444253,
+      " ApplicationType": "Pre-Assessment Certificate Renewal",
+      " DateReceived": "14/04/2026",
+      " DateReceivedSort": "2026/04/14"
+    },
+    {
+      "BusinessName": "STANALEC AS TRUSTEE FOR STANALEC UNIT TRUST",
+      " TradeName": "Stanalec Pty Ltd",
+      " ABN": 68738010349,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "13/04/2026",
+      " DateReceivedSort": "2026/04/13"
+    },
+    {
+      "BusinessName": "IIMBE PTY LTD",
+      " TradeName": "IIMBE Pty Ltd",
+      " ABN": 53637363921,
+      " ApplicationType": "Pre-Assessment Certificate Renewal",
+      " DateReceived": "13/04/2026",
+      " DateReceivedSort": "2026/04/13"
+    },
+    {
+      "BusinessName": "ALLIED FACILITIES MANAGEMENT PTY LTD",
+      " TradeName": "ALLIED FACILITIES MANAGEMENT PTY LTD",
+      " ABN": 39159322086,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "15/04/2026",
+      " DateReceivedSort": "2026/04/15"
+    },
+    {
+      "BusinessName": "GEOSECURE AUS PTY LTD AS TRUSTEE FOR GEOSECURE AUS UNIT TRUST",
+      " TradeName": null,
+      " ABN": 66293408673,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "14/04/2026",
+      " DateReceivedSort": "2026/04/14"
+    },
+    {
+      "BusinessName": "ADS ENVIRONMENTAL SERVICES PTY LIMITED",
+      " TradeName": "ADS Environmental Services Pty Ltd",
+      " ABN": 41003958478,
+      " ApplicationType": "Pre-Assessment Certificate Renewal",
+      " DateReceived": "01/05/2026",
+      " DateReceivedSort": "2026/05/01"
+    },
+    {
+      "BusinessName": "The trustee for Nisbet Family Trust",
+      " TradeName": "NISBET SECURITY SYSTEMS",
+      " ABN": 24970260755,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "05/05/2026",
+      " DateReceivedSort": "2026/05/05"
+    },
+    {
+      "BusinessName": "Wintringham Housing Limited",
+      " TradeName": "Wintringham Housing",
+      " ABN": 84129707937,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "21/04/2026",
+      " DateReceivedSort": "2026/04/21"
+    },
+    {
+      "BusinessName": "DECON TECHNOLOGIES PTY LTD",
+      " TradeName": "Decon Technologies Pty Ltd",
+      " ABN": 20113386959,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "15/04/2026",
+      " DateReceivedSort": "2026/04/15"
+    },
+    {
+      "BusinessName": "NORMARK LANDSCAPES PTY LTD",
+      " TradeName": "Normark Landscapes",
+      " ABN": 75006688704,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "15/04/2026",
+      " DateReceivedSort": "2026/04/15"
+    },
+    {
+      "BusinessName": "MRI SOFTWARE AUSTRALIA PTY LIMITED",
+      " TradeName": "MRI Software Australia Pty Limited",
+      " ABN": 88078230387,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "17/04/2026",
+      " DateReceivedSort": "2026/04/17"
+    },
+    {
+      "BusinessName": "BOLTON OFFICE SUPPLIES PTY LTD ATF BOLTON AND MCCREDDEN UNIT TRUST",
+      " TradeName": null,
+      " ABN": 63996685825,
+      " ApplicationType": "Pre-Assessment Certificate Renewal",
+      " DateReceived": "15/04/2026",
+      " DateReceivedSort": "2026/04/15"
+    },
+    {
+      "BusinessName": "UDEC PTY LTD AS TRUSTEE FOR UDEC UNIT TRUST",
+      " TradeName": null,
+      " ABN": 81587457835,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "17/04/2026",
+      " DateReceivedSort": "2026/04/17"
+    },
+    {
+      "BusinessName": "NUIX LIMITED",
+      " TradeName": "Nuix Limited",
+      " ABN": 80117140235,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "16/04/2026",
+      " DateReceivedSort": "2026/04/16"
+    },
+    {
+      "BusinessName": "Arcadia Landscape Architecture Pty Limited",
+      " TradeName": "Arcadia Landscape Architecture Pty Limited",
+      " ABN": 83148994870,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "17/04/2026",
+      " DateReceivedSort": "2026/04/17"
+    },
+    {
+      "BusinessName": "DEC PROJECTS PTY LTD",
+      " TradeName": "DEC Projects Pty Ltd",
+      " ABN": 63628859478,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "16/04/2026",
+      " DateReceivedSort": "2026/04/16"
+    },
+    {
+      "BusinessName": "CHARLIE DELTA GROUP PTY LTD",
+      " TradeName": "Run Better Consulting",
+      " ABN": 68646430739,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "23/04/2026",
+      " DateReceivedSort": "2026/04/23"
+    },
+    {
+      "BusinessName": "The Trustee for AL MERHIM FAMILY TRUST",
+      " TradeName": "Mina group Cleaning Services",
+      " ABN": 40930756641,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "16/04/2026",
+      " DateReceivedSort": "2026/04/16"
+    },
+    {
+      "BusinessName": "IVE GROUP VICTORIA PTY LTD",
+      " TradeName": "IVE Group Victoria Pty Ltd",
+      " ABN": 53004125231,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "27/04/2026",
+      " DateReceivedSort": "2026/04/27"
+    },
+    {
+      "BusinessName": "JCH MEDIA GROUP PTY LTD",
+      " TradeName": "JCH MEDIA GROUP PTY LTD",
+      " ABN": 62659841979,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "17/04/2026",
+      " DateReceivedSort": "2026/04/17"
+    },
+    {
+      "BusinessName": "CAMPAIGN MONITOR PTY LTD",
+      " TradeName": "Campaign Monitor Pty Ltd",
+      " ABN": 42094533445,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "17/04/2026",
+      " DateReceivedSort": "2026/04/17"
+    },
+    {
+      "BusinessName": "BUSINESS SERVICE BRANDS PTY LTD",
+      " TradeName": "All Clean Property Care",
+      " ABN": 27617221011,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "30/04/2026",
+      " DateReceivedSort": "2026/04/30"
+    },
+    {
+      "BusinessName": "Fulcrum3D Pty Ltd",
+      " TradeName": "Fulcrum3D",
+      " ABN": 73151086510,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "30/04/2026",
+      " DateReceivedSort": "2026/04/30"
+    },
+    {
+      "BusinessName": "SENTINEL BOATS PTY LTD",
+      " TradeName": "Sentinel Boats Pty Ltd",
+      " ABN": 77072120864,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "20/04/2026",
+      " DateReceivedSort": "2026/04/20"
+    },
+    {
+      "BusinessName": "SPEARHEAD MARINE GROUP PTY LTD",
+      " TradeName": "Spearhead Marine Group Pty Ltd",
+      " ABN": 96693992915,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "20/04/2026",
+      " DateReceivedSort": "2026/04/20"
+    },
+    {
+      "BusinessName": "LOCUS GLOBAL AUSTRALIA PTY LTD ATF LOCUS GLOBAL GROUP UNIT TRUST",
+      " TradeName": null,
+      " ABN": 51166907315,
+      " ApplicationType": "Pre-Assessment Certificate Renewal",
+      " DateReceived": "21/04/2026",
+      " DateReceivedSort": "2026/04/21"
+    },
+    {
+      "BusinessName": "ST JOHN OF GOD HEALTH CARE INC",
+      " TradeName": "ST JOHN OF GOD HEALTH CARE INC",
+      " ABN": 21930207958,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "29/04/2026",
+      " DateReceivedSort": "2026/04/29"
+    },
+    {
+      "BusinessName": "ARTHUR D. LITTLE (AUSTRALIA) PTY LTD",
+      " TradeName": "ARTHUR D. LITTLE (AUSTRALIA) PTY LTD",
+      " ABN": 81651382759,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "23/04/2026",
+      " DateReceivedSort": "2026/04/23"
+    },
+    {
+      "BusinessName": "ASG INDUSTRIAL PTY LTD",
+      " TradeName": "ASG Industrial",
+      " ABN": 70628475052,
+      " ApplicationType": "Pre-Assessment Certificate Renewal",
+      " DateReceived": "28/04/2026",
+      " DateReceivedSort": "2026/04/28"
+    },
+    {
+      "BusinessName": "EDULAB PTY LTD",
+      " TradeName": "eduLAB",
+      " ABN": 79629762689,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "04/05/2026",
+      " DateReceivedSort": "2026/05/04"
+    },
+    {
+      "BusinessName": "D & T BARBER PTY. LTD. AS TRUSTEE FOR D & T BARBER FAMILY TRUST",
+      " TradeName": null,
+      " ABN": 13812628689,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "21/04/2026",
+      " DateReceivedSort": "2026/04/21"
+    },
+    {
+      "BusinessName": "Multitek Solutions Pty Ltd",
+      " TradeName": "MultiTek Solutions Pty Ltd",
+      " ABN": 20127758310,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "22/04/2026",
+      " DateReceivedSort": "2026/04/22"
+    },
+    {
+      "BusinessName": "CAULMAR PTY. LTD.",
+      " TradeName": "Hart Marine",
+      " ABN": 54006188898,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "21/04/2026",
+      " DateReceivedSort": "2026/04/21"
+    },
+    {
+      "BusinessName": "ZED MARINE PTY LTD",
+      " TradeName": "Zed Marine Pty Ltd",
+      " ABN": 32668666368,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "21/04/2026",
+      " DateReceivedSort": "2026/04/21"
+    },
+    {
+      "BusinessName": "YAMBA WELDING & ENGINEERING PTY. LIMITED",
+      " TradeName": "YWE",
+      " ABN": 82003526841,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "21/04/2026",
+      " DateReceivedSort": "2026/04/21"
+    },
+    {
+      "BusinessName": "ONETOUCH LEASING AUSTRALIA PTY LTD",
+      " TradeName": "OneTouch Leasing",
+      " ABN": 70693066072,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "23/04/2026",
+      " DateReceivedSort": "2026/04/23"
+    },
+    {
+      "BusinessName": "BRENNAN & HEMMINGS CONSTRUCTIONS PTY. LTD.",
+      " TradeName": "Brennan & Hemmings Constructions Pty. Ltd.",
+      " ABN": 76007335882,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "22/04/2026",
+      " DateReceivedSort": "2026/04/22"
+    },
+    {
+      "BusinessName": "TRICENTIS APAC PTY LTD",
+      " TradeName": "TRICENTIS APAC PTY LTD",
+      " ABN": 59143271130,
+      " ApplicationType": "Pre-Assessment Certificate Renewal",
+      " DateReceived": "21/04/2026",
+      " DateReceivedSort": "2026/04/21"
+    },
+    {
+      "BusinessName": "A PLUS COMPLIANCE SERVICES PTY LTD",
+      " TradeName": "A Plus Compliance Services",
+      " ABN": 91670793218,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "26/04/2026",
+      " DateReceivedSort": "2026/04/26"
+    },
+    {
+      "BusinessName": "MR JON WATSON",
+      " TradeName": "Murchison Machine Hire",
+      " ABN": 93284207470,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "22/04/2026",
+      " DateReceivedSort": "2026/04/22"
+    },
+    {
+      "BusinessName": "POPES CONSOLIDATED BUS LINES PTY. LTD. as trustee for POPES CONSOLIDATED BUS LINES UNIT TRUST",
+      " TradeName": null,
+      " ABN": 35250189812,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "22/04/2026",
+      " DateReceivedSort": "2026/04/22"
+    },
+    {
+      "BusinessName": "CHANDLER HEALTH PTY LTD",
+      " TradeName": "Future1st GTO",
+      " ABN": 74601713884,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "23/04/2026",
+      " DateReceivedSort": "2026/04/23"
+    },
+    {
+      "BusinessName": "THE MEDPASS GROUP PTY LTD",
+      " TradeName": "MedPass",
+      " ABN": 53164389520,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "23/04/2026",
+      " DateReceivedSort": "2026/04/23"
+    },
+    {
+      "BusinessName": "HUMAN RESOURCE SOLUTIONS AUSTRALIA PTY LTD",
+      " TradeName": "Human Resource Solutions Australia Pty Ltd",
+      " ABN": 50149856940,
+      " ApplicationType": "Pre-Assessment Certificate Renewal",
+      " DateReceived": "22/04/2026",
+      " DateReceivedSort": "2026/04/22"
+    },
+    {
+      "BusinessName": "EXTENT HERITAGE PTY LIMITED",
+      " TradeName": "Extent Heritage Pty Ltd",
+      " ABN": 24608666306,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "28/04/2026",
+      " DateReceivedSort": "2026/04/28"
+    },
+    {
+      "BusinessName": "MR TIMOTHY BLIZARD",
+      " TradeName": "GRC Management Consulting",
+      " ABN": 16456659558,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "22/04/2026",
+      " DateReceivedSort": "2026/04/22"
+    },
+    {
+      "BusinessName": "SPECKLESS FACILITY SERVICES PTY LTD",
+      " TradeName": "Speckless Facility Services Pty Ltd",
+      " ABN": 84647767397,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "06/05/2026",
+      " DateReceivedSort": "2026/05/06"
+    },
+    {
+      "BusinessName": "Showtime Ventures Pty Ltd as trustee for The Lovett Family Trust",
+      " TradeName": null,
+      " ABN": 64536094401,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "30/04/2026",
+      " DateReceivedSort": "2026/04/30"
+    },
+    {
+      "BusinessName": "FIRST NATIONS ENERGY AND INFRASTRUCTURE GROUP PTY LTD",
+      " TradeName": "FIRST NATIONS ENERGY AND INFRASTRUCTURE GROUP PTY",
+      " ABN": 58689539375,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "23/04/2026",
+      " DateReceivedSort": "2026/04/23"
+    },
+    {
+      "BusinessName": "MESI GROUP PTY LTD",
+      " TradeName": "Mesi Group",
+      " ABN": 30636806543,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "23/04/2026",
+      " DateReceivedSort": "2026/04/23"
+    },
+    {
+      "BusinessName": "CREATIVE RECRUITERS PTY LTD",
+      " TradeName": "Creative Recruiters Pty Ltd",
+      " ABN": 37604083730,
+      " ApplicationType": "Pre-Assessment Certificate Renewal",
+      " DateReceived": "23/04/2026",
+      " DateReceivedSort": "2026/04/23"
+    },
+    {
+      "BusinessName": "SME CIVIL CONSTRUCTION PTY LTD",
+      " TradeName": "SME Civil Construction Pty Ltd",
+      " ABN": 21673232570,
+      " ApplicationType": "Pre-Assessment Certificate Renewal",
+      " DateReceived": "23/04/2026",
+      " DateReceivedSort": "2026/04/23"
+    },
+    {
+      "BusinessName": "THINK BUSINESS EVENTS PTY. LTD.",
+      " TradeName": "Think Business Events",
+      " ABN": 66121965428,
+      " ApplicationType": "Pre-Assessment Certificate Renewal",
+      " DateReceived": "23/04/2026",
+      " DateReceivedSort": "2026/04/23"
+    },
+    {
+      "BusinessName": "NEXSYS INDUSTRIES CONSULTING PTY LTD",
+      " TradeName": "Nexsys Industries Consulting",
+      " ABN": 69639058129,
+      " ApplicationType": "Pre-Assessment Certificate Renewal",
+      " DateReceived": "23/04/2026",
+      " DateReceivedSort": "2026/04/23"
+    },
+    {
+      "BusinessName": "GALAXY 42 PTY. LTD.",
+      " TradeName": "Atturra Business Applications",
+      " ABN": 82167654382,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "28/04/2026",
+      " DateReceivedSort": "2026/04/28"
+    },
+    {
+      "BusinessName": "HR SURVEYORS PTY LTD",
+      " TradeName": "HR SURVEYORS PTY LTD",
+      " ABN": 63165389542,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "23/04/2026",
+      " DateReceivedSort": "2026/04/23"
+    },
+    {
+      "BusinessName": "PEOPLEBANK AUSTRALIA LTD",
+      " TradeName": "Peoplebank Australia",
+      " ABN": 42003995748,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "23/04/2026",
+      " DateReceivedSort": "2026/04/23"
+    },
+    {
+      "BusinessName": "ACRODATA TASMANIA PTY LTD",
+      " TradeName": "Acrodata Tasmania Pty Ltd",
+      " ABN": 89618212847,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "28/04/2026",
+      " DateReceivedSort": "2026/04/28"
+    },
+    {
+      "BusinessName": "ROCKFIELD TECHNOLOGIES AUSTRALIA PTY LTD",
+      " TradeName": "Rockfield Technologies Australia Pty Ltd",
+      " ABN": 53092464376,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "24/04/2026",
+      " DateReceivedSort": "2026/04/24"
+    },
+    {
+      "BusinessName": "BELLWETHER CONSULTING SERVICES PTY LTD",
+      " TradeName": "BELLWETHER CONSULTING SERVICES PTY LTD",
+      " ABN": 49619579181,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "23/04/2026",
+      " DateReceivedSort": "2026/04/23"
+    },
+    {
+      "BusinessName": "HOME DIMENSIONS PTY. LTD.",
+      " TradeName": "Home Dimensions Pty Ltd T/As HD Constructions",
+      " ABN": 90007400222,
+      " ApplicationType": "Pre-Assessment Certificate Renewal",
+      " DateReceived": "24/04/2026",
+      " DateReceivedSort": "2026/04/24"
+    },
+    {
+      "BusinessName": "GUIDEWAY LICENSEE SERVICES PTY LTD",
+      " TradeName": "Guideway Licensee Services",
+      " ABN": 15168582741,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "24/04/2026",
+      " DateReceivedSort": "2026/04/24"
+    },
+    {
+      "BusinessName": "CYBERMYND INFORMATION SYSTEMS CONSULTING PTY. LTD.",
+      " TradeName": "CYBERMYND PTY LTD",
+      " ABN": 24094169749,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "24/04/2026",
+      " DateReceivedSort": "2026/04/24"
+    },
+    {
+      "BusinessName": "CHALLENGER SECURITY PTY LTD",
+      " TradeName": "Challenger Security",
+      " ABN": 37147923331,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "28/04/2026",
+      " DateReceivedSort": "2026/04/28"
+    },
+    {
+      "BusinessName": "TWIGA GROUP PTY LTD",
+      " TradeName": "Twiga Group Pty Ltd",
+      " ABN": 67634901189,
+      " ApplicationType": "Pre-Assessment Certificate Renewal",
+      " DateReceived": "24/04/2026",
+      " DateReceivedSort": "2026/04/24"
+    },
+    {
+      "BusinessName": "MAURIE NOVAK ARCHITECTURE PTY LTD",
+      " TradeName": "Obsessive Architecture",
+      " ABN": 17609641072,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "29/04/2026",
+      " DateReceivedSort": "2026/04/29"
+    },
+    {
+      "BusinessName": "MOBILE NETWORK PTY. LTD.",
+      " TradeName": "Mobile Network Pty Ltd",
+      " ABN": 28060331099,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "24/04/2026",
+      " DateReceivedSort": "2026/04/24"
+    },
+    {
+      "BusinessName": "NEOMA PTY LTD",
+      " TradeName": "NEOMA PTY LTD",
+      " ABN": 18687659196,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "24/04/2026",
+      " DateReceivedSort": "2026/04/24"
+    },
+    {
+      "BusinessName": "ARCADIA SOCIAL RESEARCH PTY LTD",
+      " TradeName": "Arcadia Social Research",
+      " ABN": 22656435237,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "25/04/2026",
+      " DateReceivedSort": "2026/04/25"
+    },
+    {
+      "BusinessName": "RED DOLPHIN ENERGY PTY LTD",
+      " TradeName": "Red Dolphin Energy",
+      " ABN": 59655942993,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "25/04/2026",
+      " DateReceivedSort": "2026/04/25"
+    },
+    {
+      "BusinessName": "PROCURA IQ PTY LTD",
+      " TradeName": "Procura IQ",
+      " ABN": 69685004942,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "27/04/2026",
+      " DateReceivedSort": "2026/04/27"
+    },
+    {
+      "BusinessName": "EDUCATION ECONOMY PTY LTD AS TRUSTEE FOR THE EDUCATION ECONOMY TRUST",
+      " TradeName": null,
+      " ABN": 36526741734,
+      " ApplicationType": "Pre-Assessment Certificate Renewal",
+      " DateReceived": "27/04/2026",
+      " DateReceivedSort": "2026/04/27"
+    },
+    {
+      "BusinessName": "SMITH STRATEGIC PTY LTD",
+      " TradeName": "Smith Strategic Pty Ltd",
+      " ABN": 28682985093,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "27/04/2026",
+      " DateReceivedSort": "2026/04/27"
+    },
+    {
+      "BusinessName": "AUDITS 1 PTY LTD ATF THE AUDITS FAMILY TRUST",
+      " TradeName": null,
+      " ABN": 81809257197,
+      " ApplicationType": "Pre-Assessment Certificate Renewal",
+      " DateReceived": "27/04/2026",
+      " DateReceivedSort": "2026/04/27"
+    },
+    {
+      "BusinessName": "SYSTEC PTY. LTD.",
+      " TradeName": "SysTec Pty Ltd",
+      " ABN": 31069807352,
+      " ApplicationType": "Pre-Assessment Certificate Renewal",
+      " DateReceived": "27/04/2026",
+      " DateReceivedSort": "2026/04/27"
+    },
+    {
+      "BusinessName": "SAUCIER BRANDS PTY LTD",
+      " TradeName": "Saucier Brands Pty Ltd",
+      " ABN": 45684725406,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "27/04/2026",
+      " DateReceivedSort": "2026/04/27"
+    },
+    {
+      "BusinessName": "SUSTAINABLE PROJECT MANAGEMENT PTY LTD",
+      " TradeName": "SPM - Sustainable Project Management Pty Ltd",
+      " ABN": 91625759275,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "27/04/2026",
+      " DateReceivedSort": "2026/04/27"
+    },
+    {
+      "BusinessName": "SECURE NATIVE AI AUSTRALIA PTY LTD",
+      " TradeName": "Secure Native AI Australia Pty Ltd",
+      " ABN": 63687773155,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "27/04/2026",
+      " DateReceivedSort": "2026/04/27"
+    },
+    {
+      "BusinessName": "ALTUS PTY LTD",
+      " TradeName": "Altus Pty Ltd",
+      " ABN": 48664209787,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "27/04/2026",
+      " DateReceivedSort": "2026/04/27"
+    },
+    {
+      "BusinessName": "WORX SOFTWARE PTY LTD",
+      " TradeName": "Worx Software Pty Ltd",
+      " ABN": 25632722420,
+      " ApplicationType": "Pre-Assessment Certificate Renewal",
+      " DateReceived": "27/04/2026",
+      " DateReceivedSort": "2026/04/27"
+    },
+    {
+      "BusinessName": "NORTHSTAR PROJECTS PTY LTD",
+      " TradeName": "Northstar Projects Pty Ltd",
+      " ABN": 12638531325,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "27/04/2026",
+      " DateReceivedSort": "2026/04/27"
+    },
+    {
+      "BusinessName": "Lycopodium Infrastructure Pty Ltd",
+      " TradeName": "Lycopodium Infrastructure",
+      " ABN": 57136875959,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "27/04/2026",
+      " DateReceivedSort": "2026/04/27"
+    },
+    {
+      "BusinessName": "MAYDAY RECRUITMENT PTY LTD",
+      " TradeName": "MAYDAY Recruitment Pty Ltd",
+      " ABN": 52610167318,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "28/04/2026",
+      " DateReceivedSort": "2026/04/28"
+    },
+    {
+      "BusinessName": "SHARP & CARTER SERVICES PTY LTD AS TRUSTEE FOR THE S&C SERVICES UNIT TRUST",
+      " TradeName": "Sharp & Carter",
+      " ABN": 91762189357,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "28/04/2026",
+      " DateReceivedSort": "2026/04/28"
+    },
+    {
+      "BusinessName": "ASSETT FACILITIES MANAGEMENT PTY LTD",
+      " TradeName": "ASSETT FACILITIES MANAGEMENT PTY LTD",
+      " ABN": 68113231931,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "28/04/2026",
+      " DateReceivedSort": "2026/04/28"
+    },
+    {
+      "BusinessName": "BJ HALLIGAN CONSTRUCTION PTY LTD AS TRUSTEE FOR BJ HALLIGAN FAMILY TRUST",
+      " TradeName": null,
+      " ABN": 66473241072,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "28/04/2026",
+      " DateReceivedSort": "2026/04/28"
+    },
+    {
+      "BusinessName": "ABOVE THE LINE PTY LTD ATF GOPIN FAMILY TRUST",
+      " TradeName": null,
+      " ABN": 12485599069,
+      " ApplicationType": "Pre-Assessment Certificate Renewal",
+      " DateReceived": "28/04/2026",
+      " DateReceivedSort": "2026/04/28"
+    },
+    {
+      "BusinessName": "MCPEAKE FACILITY SERVICES PTY LTD",
+      " TradeName": "MC PEAKE FACILITY SERVICES PTY. LTD.",
+      " ABN": 31655181829,
+      " ApplicationType": "Pre-Assessment Certificate Renewal",
+      " DateReceived": "28/04/2026",
+      " DateReceivedSort": "2026/04/28"
+    },
+    {
+      "BusinessName": "MISS PATRICIA CHAPMAN",
+      " TradeName": "impressiveCV",
+      " ABN": 15273191708,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "28/04/2026",
+      " DateReceivedSort": "2026/04/28"
+    },
+    {
+      "BusinessName": "EMA CONSULTING PTY LTD",
+      " TradeName": "EMA CONSULTING PTY LTD",
+      " ABN": 17078829517,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "28/04/2026",
+      " DateReceivedSort": "2026/04/28"
+    },
+    {
+      "BusinessName": "GRAVITAS COMMERCIAL GROUP PTY LTD",
+      " TradeName": "GRAVITAS COMMERCIAL GROUP PTY LTD",
+      " ABN": 69660355448,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "29/04/2026",
+      " DateReceivedSort": "2026/04/29"
+    },
+    {
+      "BusinessName": "HICKS-DAVIES CONSULTING PTY LTD",
+      " TradeName": "Hicks-Davies Consulting Pty Ltd",
+      " ABN": 86605677727,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "28/04/2026",
+      " DateReceivedSort": "2026/04/28"
+    },
+    {
+      "BusinessName": "EROC PTY LTD",
+      " TradeName": "EROC",
+      " ABN": 39661396121,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "28/04/2026",
+      " DateReceivedSort": "2026/04/28"
+    },
+    {
+      "BusinessName": "FINCH ADVISORY PTY LTD",
+      " TradeName": "Finch Advisory Pty Ltd",
+      " ABN": 84641232582,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "28/04/2026",
+      " DateReceivedSort": "2026/04/28"
+    },
+    {
+      "BusinessName": "Abbott Risk Consulting Limited",
+      " TradeName": "Abbott Risk Consulting Ltd.",
+      " ABN": 96144722065,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "29/04/2026",
+      " DateReceivedSort": "2026/04/29"
+    },
+    {
+      "BusinessName": "AUSTRALIAN EDUCATION RESEARCH ORGANISATION LIMITED",
+      " TradeName": "Australian Education Research Organisation Limited",
+      " ABN": 83644853369,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "29/04/2026",
+      " DateReceivedSort": "2026/04/29"
+    },
+    {
+      "BusinessName": "NEED2HEAL PTY LTD",
+      " TradeName": "Need2Heal",
+      " ABN": 74665549655,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "29/04/2026",
+      " DateReceivedSort": "2026/04/29"
+    },
+    {
+      "BusinessName": "GLOBE WILLIAMS (AUST) PTY LTD",
+      " TradeName": "Globe Williams International",
+      " ABN": 87108852875,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "29/04/2026",
+      " DateReceivedSort": "2026/04/29"
+    },
+    {
+      "BusinessName": "AHS PREMIER FACILITIES PTY LTD",
+      " TradeName": "AHS Premier Facilities PTY LTD",
+      " ABN": 77008876971,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "29/04/2026",
+      " DateReceivedSort": "2026/04/29"
+    },
+    {
+      "BusinessName": "RESOLVE ENVIRONMENTAL PTY. LTD.",
+      " TradeName": "Resolve Environmental",
+      " ABN": 42609904056,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "01/05/2026",
+      " DateReceivedSort": "2026/05/01"
+    },
+    {
+      "BusinessName": "JVP CONSTRUCTION PTY. LTD. AS TRUSTEE FOR JVP BUSINESS TRUST",
+      " TradeName": null,
+      " ABN": 24212617216,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "29/04/2026",
+      " DateReceivedSort": "2026/04/29"
+    },
+    {
+      "BusinessName": "COSIVE PTY LTD",
+      " TradeName": "Cosive",
+      " ABN": 24608265345,
+      " ApplicationType": "Pre-Assessment Certificate Renewal",
+      " DateReceived": "29/04/2026",
+      " DateReceivedSort": "2026/04/29"
+    },
+    {
+      "BusinessName": "HOLOGIC (AUSTRALIA & NEW ZEALAND) PTY LIMITED",
+      " TradeName": "HOLOGIC (AUSTRALIA & NEW ZEALAND) PTY LIMITED",
+      " ABN": 95079821275,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "29/04/2026",
+      " DateReceivedSort": "2026/04/29"
+    },
+    {
+      "BusinessName": "DRSL AI PTY LTD",
+      " TradeName": "DRSL AI",
+      " ABN": 37689205043,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "29/04/2026",
+      " DateReceivedSort": "2026/04/29"
+    },
+    {
+      "BusinessName": "Thales Cyber Services Australia Pty Ltd",
+      " TradeName": "TESSERENT CYBER SERVICES PTY LTD",
+      " ABN": 52632539167,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "29/04/2026",
+      " DateReceivedSort": "2026/04/29"
+    },
+    {
+      "BusinessName": "BANKS CONSTRUCTIONS PTY LTD",
+      " TradeName": "Banks Constructions Pty Ltd",
+      " ABN": 52090545476,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "29/04/2026",
+      " DateReceivedSort": "2026/04/29"
+    },
+    {
+      "BusinessName": "DURESS PTY LTD",
+      " TradeName": "Duress",
+      " ABN": 11613710026,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "30/04/2026",
+      " DateReceivedSort": "2026/04/30"
+    },
+    {
+      "BusinessName": "DR JOHN HAMILL",
+      " TradeName": "John Herman Hamill",
+      " ABN": 67710978506,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "29/04/2026",
+      " DateReceivedSort": "2026/04/29"
+    },
+    {
+      "BusinessName": "AUSTRALIAN COLLEGE OF BUSINESS INTELLIGENCE PTY LTD",
+      " TradeName": "Australian College of Business Intelligence (ACBI)",
+      " ABN": 19158104566,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "30/04/2026",
+      " DateReceivedSort": "2026/04/30"
+    },
+    {
+      "BusinessName": "QIAGEN PTY LTD",
+      " TradeName": "QIAGEN Pty Ltd",
+      " ABN": 75072382944,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "29/04/2026",
+      " DateReceivedSort": "2026/04/29"
+    },
+    {
+      "BusinessName": "POLYTEC CONSTRUCTIONS PTY LTD",
+      " TradeName": "POLYTEC CONSTRUCTIONS PTY LTD",
+      " ABN": 79683489563,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "30/04/2026",
+      " DateReceivedSort": "2026/04/30"
+    },
+    {
+      "BusinessName": "MOBILITY PLUS WHEELCHAIRS PTY LTD",
+      " TradeName": "Mobility Plus Wheelchairs Pty Ltd",
+      " ABN": 23006540101,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "05/05/2026",
+      " DateReceivedSort": "2026/05/05"
+    },
+    {
+      "BusinessName": "ENIGMA INDIGENOUS PEOPLES PTY LTD",
+      " TradeName": "Enigma Indigenous Peoples Pty Ltd",
+      " ABN": 52623122458,
+      " ApplicationType": "Pre-Assessment Certificate Renewal",
+      " DateReceived": "30/04/2026",
+      " DateReceivedSort": "2026/04/30"
+    },
+    {
+      "BusinessName": "CINFRA INFRASTRUCTURE PTY LTD",
+      " TradeName": "CINFRA INFRASTRUCTURE PTY LTD",
+      " ABN": 22677596584,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "30/04/2026",
+      " DateReceivedSort": "2026/04/30"
+    },
+    {
+      "BusinessName": "MASON ADVISORY AUSTRALIA PTY LTD",
+      " TradeName": "Mason Advisory Australia",
+      " ABN": 89690572162,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "04/05/2026",
+      " DateReceivedSort": "2026/05/04"
+    },
+    {
+      "BusinessName": "NUCLEUS 3 PTY LTD",
+      " TradeName": "NUCLEUS 3 PTY LTD",
+      " ABN": 94630512202,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "30/04/2026",
+      " DateReceivedSort": "2026/04/30"
+    },
+    {
+      "BusinessName": "MRS TANJA PARIS",
+      " TradeName": "Paris Information Technology",
+      " ABN": 21202527108,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "02/05/2026",
+      " DateReceivedSort": "2026/05/02"
+    },
+    {
+      "BusinessName": "SALIBA PLUMBING SOLUTIONS PTY LTD",
+      " TradeName": "Aqua Plumbing and Civil",
+      " ABN": 32605969042,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "30/04/2026",
+      " DateReceivedSort": "2026/04/30"
+    },
+    {
+      "BusinessName": "BRIGHT BOOKS PTY LTD",
+      " TradeName": "Bright Books Pty Ltd",
+      " ABN": 29052533623,
+      " ApplicationType": "Pre-Assessment Certificate Renewal",
+      " DateReceived": "30/04/2026",
+      " DateReceivedSort": "2026/04/30"
+    },
+    {
+      "BusinessName": "En Masse Pty Ltd",
+      " TradeName": "En Masse Pty Ltd",
+      " ABN": 31142435532,
+      " ApplicationType": "Pre-Assessment Certificate Renewal",
+      " DateReceived": "05/05/2026",
+      " DateReceivedSort": "2026/05/05"
+    },
+    {
+      "BusinessName": "CT ALLIANCE PTY LTD ATF C T A UNIT TRUST",
+      " TradeName": null,
+      " ABN": 21959192524,
+      " ApplicationType": "Pre-Assessment Certificate Renewal",
+      " DateReceived": "30/04/2026",
+      " DateReceivedSort": "2026/04/30"
+    },
+    {
+      "BusinessName": "HIGH RES SERVICE PTY LTD",
+      " TradeName": "High Res Service Pty Ltd",
+      " ABN": 34682754632,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "01/05/2026",
+      " DateReceivedSort": "2026/05/01"
+    },
+    {
+      "BusinessName": "ABATECH EDUCATION PTY LTD",
+      " TradeName": "Holberton School Australia",
+      " ABN": 46652320075,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "01/05/2026",
+      " DateReceivedSort": "2026/05/01"
+    },
+    {
+      "BusinessName": "MULLER PTY LTD ATF MULLER UNIT TRUST",
+      " TradeName": null,
+      " ABN": 33650179041,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "01/05/2026",
+      " DateReceivedSort": "2026/05/01"
+    },
+    {
+      "BusinessName": "AUSTRAL ARCHAEOLOGY PTY LTD",
+      " TradeName": "Austral Archaeology",
+      " ABN": 55629860975,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "04/05/2026",
+      " DateReceivedSort": "2026/05/04"
+    },
+    {
+      "BusinessName": "GENTON PTY. LIMITED",
+      " TradeName": "Genton",
+      " ABN": 24003926305,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "01/05/2026",
+      " DateReceivedSort": "2026/05/01"
+    },
+    {
+      "BusinessName": "PARAGON CARE GROUP AUSTRALIA PTY LTD",
+      " TradeName": "Paragon Care Group Australia Pty Ltd",
+      " ABN": 49626006871,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "01/05/2026",
+      " DateReceivedSort": "2026/05/01"
+    },
+    {
+      "BusinessName": "ETAIROS PTY LTD",
+      " TradeName": "Etairos",
+      " ABN": 85674846890,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "01/05/2026",
+      " DateReceivedSort": "2026/05/01"
+    },
+    {
+      "BusinessName": "DESIGN & CONSTRUCT INDUSTRIES PTY. LTD.",
+      " TradeName": "Design & Construct Industries",
+      " ABN": 82621788609,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "03/05/2026",
+      " DateReceivedSort": "2026/05/03"
+    },
+    {
+      "BusinessName": "808 Construction Pty Ltd",
+      " TradeName": "808 Construction pth ltd",
+      " ABN": 52134552328,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "03/05/2026",
+      " DateReceivedSort": "2026/05/03"
+    },
+    {
+      "BusinessName": "BATTLEGROUND GROUP PTY LTD",
+      " TradeName": "Battleground",
+      " ABN": 93628579779,
+      " ApplicationType": "Pre-Assessment Certificate Renewal",
+      " DateReceived": "03/05/2026",
+      " DateReceivedSort": "2026/05/03"
+    },
+    {
+      "BusinessName": "MELBOURNE STEEL ERECTORS PTY LTD",
+      " TradeName": "Melbourne Steel Erectors Pty Ltd",
+      " ABN": 75140972998,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "04/05/2026",
+      " DateReceivedSort": "2026/05/04"
+    },
+    {
+      "BusinessName": "SOCIAL PINPOINT PTY LTD",
+      " TradeName": "Social Pinpoint",
+      " ABN": 79164471425,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "04/05/2026",
+      " DateReceivedSort": "2026/05/04"
+    },
+    {
+      "BusinessName": "I.C.M. CONSTRUCTION (VIC) PTY LTD",
+      " TradeName": "I.C.M. CONSTRUCTION (VIC) PTY LTD",
+      " ABN": 75624251707,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "04/05/2026",
+      " DateReceivedSort": "2026/05/04"
+    },
+    {
+      "BusinessName": "I'VE GOT YOUR 6 FOUNDATION LTD",
+      " TradeName": "I've Got Your 6 Foundation",
+      " ABN": 35671656821,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "04/05/2026",
+      " DateReceivedSort": "2026/05/04"
+    },
+    {
+      "BusinessName": "BEAMTREE PTY. LTD.",
+      " TradeName": "Beamtree Pty Ltd",
+      " ABN": 91073973430,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "06/05/2026",
+      " DateReceivedSort": "2026/05/06"
+    },
+    {
+      "BusinessName": "JOVEN BUILDING SERVICES PTY. LTD.",
+      " TradeName": "Joven Building Services Pty Ltd",
+      " ABN": 96085841194,
+      " ApplicationType": "Pre-Assessment Certificate Renewal",
+      " DateReceived": "04/05/2026",
+      " DateReceivedSort": "2026/05/04"
+    },
+    {
+      "BusinessName": "EWERS & KELYNACK PTY LTD ATF THE EWERS KELYNACK FAMILY TRUST",
+      " TradeName": null,
+      " ABN": 40197145769,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "04/05/2026",
+      " DateReceivedSort": "2026/05/04"
+    },
+    {
+      "BusinessName": "DELFI GROUP PTY LTD AS TRUSTEE FOR DELFI GROUP TRUST",
+      " TradeName": "Delfi Group Pty Ltd",
+      " ABN": 29550533249,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "05/05/2026",
+      " DateReceivedSort": "2026/05/05"
+    },
+    {
+      "BusinessName": "APPLIED GROUP PTY LTD",
+      " TradeName": "Applied Group Pty Ltd",
+      " ABN": 21664504447,
+      " ApplicationType": "Pre-Assessment Certificate Renewal",
+      " DateReceived": "04/05/2026",
+      " DateReceivedSort": "2026/05/04"
+    },
+    {
+      "BusinessName": "IMPAQT PTY LTD",
+      " TradeName": "IMPAQT",
+      " ABN": 92695572322,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "04/05/2026",
+      " DateReceivedSort": "2026/05/04"
+    },
+    {
+      "BusinessName": "SALT GROUP PTY LTD",
+      " TradeName": "Salt Group Pty Ltd",
+      " ABN": 99102931359,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "04/05/2026",
+      " DateReceivedSort": "2026/05/04"
+    },
+    {
+      "BusinessName": "ATLAS HEALTH CARE PTY LTD",
+      " TradeName": "AtlasMcNeil Healthcare",
+      " ABN": 70097973290,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "05/05/2026",
+      " DateReceivedSort": "2026/05/05"
+    },
+    {
+      "BusinessName": "NORTHCROFT (VICTORIA) PTY LTD",
+      " TradeName": "Northcroft (Victoria) Pty Ltd",
+      " ABN": 55635536186,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "05/05/2026",
+      " DateReceivedSort": "2026/05/05"
+    },
+    {
+      "BusinessName": "VDC GROUP PTY LTD",
+      " TradeName": "VDC Group Pty Ltd",
+      " ABN": 62646679852,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "05/05/2026",
+      " DateReceivedSort": "2026/05/05"
+    },
+    {
+      "BusinessName": "WORK HEALTH & SAFETY SOLUTIONS PTY LTD",
+      " TradeName": "Work Health & Safety Solutions Pty Ltd",
+      " ABN": 92633072241,
+      " ApplicationType": "Pre-Assessment Certificate Renewal",
+      " DateReceived": "05/05/2026",
+      " DateReceivedSort": "2026/05/05"
+    },
+    {
+      "BusinessName": "COLLECTIVE ENGINEERING COMPANY PTY LTD",
+      " TradeName": "Collective Engineering Company Pty Ltd",
+      " ABN": 65677749478,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "05/05/2026",
+      " DateReceivedSort": "2026/05/05"
+    },
+    {
+      "BusinessName": "AUSTRAL WORKFORCE GROUP PTY LTD",
+      " TradeName": "Prodigy Healthcare Solutions",
+      " ABN": 37695044770,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "05/05/2026",
+      " DateReceivedSort": "2026/05/05"
+    },
+    {
+      "BusinessName": "ZAM ADVISORY PTY LTD",
+      " TradeName": "ZAM Advisory Pty Ltd",
+      " ABN": 18687873409,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "05/05/2026",
+      " DateReceivedSort": "2026/05/05"
+    },
+    {
+      "BusinessName": "THE COUNTRY CARE GROUP PTY LTD",
+      " TradeName": "THE COUNTRY CARE GROUP",
+      " ABN": 26088222226,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "05/05/2026",
+      " DateReceivedSort": "2026/05/05"
+    },
+    {
+      "BusinessName": "MAIOR NATU PTY LTD AS TRUSTEE FOR SANCUS TRUST",
+      " TradeName": "TechInnocens",
+      " ABN": 46507741242,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "05/05/2026",
+      " DateReceivedSort": "2026/05/05"
+    },
+    {
+      "BusinessName": "SHEILA JOHN PTY LTD",
+      " TradeName": "Sheila John Pty Ltd",
+      " ABN": 65162814539,
+      " ApplicationType": "Pre-Assessment Certificate Renewal",
+      " DateReceived": "05/05/2026",
+      " DateReceivedSort": "2026/05/05"
+    },
+    {
+      "BusinessName": "WHITFIELD EXCAVATIONS PTY LTD",
+      " TradeName": "Whitfield Excavations",
+      " ABN": 56618129285,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "06/05/2026",
+      " DateReceivedSort": "2026/05/06"
+    },
+    {
+      "BusinessName": "MY AI EXEC PTY LTD",
+      " TradeName": "My AI Exec PTY LTD",
+      " ABN": 93676536511,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "05/05/2026",
+      " DateReceivedSort": "2026/05/05"
+    },
+    {
+      "BusinessName": "YOU'RE COVERED PTY LTD",
+      " TradeName": "Total Commercial Cleaning Solutions",
+      " ABN": 28147272919,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "06/05/2026",
+      " DateReceivedSort": "2026/05/06"
+    },
+    {
+      "BusinessName": "HELIOTOPE PTY LTD",
+      " TradeName": "Heliotope",
+      " ABN": 52655751796,
+      " ApplicationType": "Pre-Assessment Certificate Renewal",
+      " DateReceived": "06/05/2026",
+      " DateReceivedSort": "2026/05/06"
+    },
+    {
+      "BusinessName": "BD & BM CROPLEY FAMILY TRUST AS TRUSTEE FOR BD & BM CROPLEY FAMILY TRUST",
+      " TradeName": "OIL RESPONSE COMPANY OF AUSTRALIA PL",
+      " ABN": 32235659662,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "06/05/2026",
+      " DateReceivedSort": "2026/05/06"
+    },
+    {
+      "BusinessName": "VANT AGENCY PTY LTD",
+      " TradeName": "Vant Agency Pty Ltd",
+      " ABN": 25693776779,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "06/05/2026",
+      " DateReceivedSort": "2026/05/06"
+    },
+    {
+      "BusinessName": "CHARLTON DEGG PTY LTD ATF CHARLTON DEGG TRUST",
+      " TradeName": null,
+      " ABN": 50260351411,
+      " ApplicationType": "Pre-Assessment Certificate Renewal",
+      " DateReceived": "06/05/2026",
+      " DateReceivedSort": "2026/05/06"
+    },
+    {
+      "BusinessName": "DYNAMIC WELDING PTY. LTD.",
+      " TradeName": "DYNAMIC WELDING PTY. LTD.",
+      " ABN": 37068532865,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "06/05/2026",
+      " DateReceivedSort": "2026/05/06"
+    },
+    {
+      "BusinessName": "BMK PTY. LTD AS TRUSTEE FOR KRONE FAMILY TRUST",
+      " TradeName": "BMK PTY LTD",
+      " ABN": 72621608863,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "06/05/2026",
+      " DateReceivedSort": "2026/05/06"
+    },
+    {
+      "BusinessName": "HGC COMMERCIAL PLUMBERS PTY LTD",
+      " TradeName": "HGC Commercial",
+      " ABN": 27655398977,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "06/05/2026",
+      " DateReceivedSort": "2026/05/06"
+    },
+    {
+      "BusinessName": "BEVINGTON CONSULTING PTY. LTD.",
+      " TradeName": "Bevington Group",
+      " ABN": 12080534005,
+      " ApplicationType": "Pre-Assessment Certificate Renewal",
+      " DateReceived": "06/05/2026",
+      " DateReceivedSort": "2026/05/06"
+    },
+    {
+      "BusinessName": "MR KIERAN CHAMPION",
+      " TradeName": "Champion Museum and Art Gallery Services",
+      " ABN": 25155280285,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "06/05/2026",
+      " DateReceivedSort": "2026/05/06"
+    },
+    {
+      "BusinessName": "EGANS PLANT HIRE PTY LTD",
+      " TradeName": "EGANS PLANT HIRE Pty Ltd",
+      " ABN": 50077737396,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "06/05/2026",
+      " DateReceivedSort": "2026/05/06"
+    },
+    {
+      "BusinessName": "QUANTUM TECH HUB PTY LTD",
+      " TradeName": "Quantum Tech Hub Pty Ltd",
+      " ABN": 90694493457,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "06/05/2026",
+      " DateReceivedSort": "2026/05/06"
+    },
+    {
+      "BusinessName": "ADAPS IT PTY LTD",
+      " TradeName": "Adaps IT Pty Ltd",
+      " ABN": 50169520478,
+      " ApplicationType": "Pre-Assessment Certificate Application",
+      " DateReceived": "06/05/2026",
+      " DateReceivedSort": "2026/05/06"
+    }
+  ]
+}

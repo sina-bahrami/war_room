@@ -1,0 +1,16 @@
+[
+  {
+    "resource_id": "0cf2ea00-0fa2-45e3-952f-99c2277c1fe8",
+    "resource_name": "Fair Jobs Code certificate register CSV",
+    "format": "CSV",
+    "datastore_active": false,
+    "output_file": "fair-jobs-code-certificate-register-csv.json"
+  },
+  {
+    "resource_id": "be0c32b3-48ff-440b-849a-b73048d44c2d",
+    "resource_name": "Fair Jobs Code application register CSV",
+    "format": "CSV",
+    "datastore_active": false,
+    "output_file": "fair-jobs-code-application-register-csv.json"
+  }
+]

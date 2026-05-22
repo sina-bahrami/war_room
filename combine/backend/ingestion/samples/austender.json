@@ -1,0 +1,38 @@
+[
+  {
+    "atm_id": "ATM-2026-001",
+    "title": "National Secure Data Platform Managed Services",
+    "agency": "Department of Finance",
+    "summary": "Managed cloud, service desk, and cyber operations support for a cross-agency secure data platform.",
+    "description": "Seeking a prime contractor to operate a sovereign cloud platform, service management tooling, and security operations runbook uplift.",
+    "stage": "open",
+    "url": "https://www.tenders.gov.au/Atm/Show/ATM-2026-001",
+    "published_at": "2026-04-01T09:00:00+10:00",
+    "closes_at": "2026-04-22T17:00:00+10:00",
+    "estimated_value": 12500000,
+    "state": "National",
+    "region": "Canberra",
+    "category": "Managed Services",
+    "tags": ["cloud", "security", "operations"],
+    "approach_to_market": "Open",
+    "division": "Digital Services"
+  },
+  {
+    "atm_id": "ATM-2026-014",
+    "title": "Regional Workforce Analytics and Reporting Platform",
+    "agency": "Department of Employment and Workplace Relations",
+    "summary": "Delivery of workforce dashboards, data integration, and quarterly policy reporting packs.",
+    "description": "This procurement covers data ingestion, dashboard implementation, reporting automation, and training for workforce forecasting users.",
+    "stage": "open",
+    "url": "https://www.tenders.gov.au/Atm/Show/ATM-2026-014",
+    "published_at": "2026-03-28T12:30:00+10:00",
+    "closes_at": "2026-04-15T17:00:00+10:00",
+    "estimated_value": 2400000,
+    "state": "National",
+    "region": "Canberra",
+    "category": "Data and Analytics",
+    "tags": ["reporting", "analytics", "training"],
+    "approach_to_market": "Open",
+    "division": "Labour Market Policy"
+  }
+]

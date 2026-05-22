@@ -1,0 +1,64 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: backend
+  namespace: prompcorp-tender-intelligence
+  labels:
+    app.kubernetes.io/name: prompcorp-tender-intelligence
+    app.kubernetes.io/component: backend
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app.kubernetes.io/name: prompcorp-tender-intelligence
+      app.kubernetes.io/component: backend
+  template:
+    metadata:
+      labels:
+        app.kubernetes.io/name: prompcorp-tender-intelligence
+        app.kubernetes.io/component: backend
+    spec:
+      containers:
+        - name: backend
+          image: prompcorp-backend:local
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 8000
+              name: http
+          envFrom:
+            - configMapRef:
+                name: prompcorp-platform-config
+            - secretRef:
+                name: prompcorp-platform-secrets
+          volumeMounts:
+            # MicroK8s single-node default: place warroom_dashboard_data.json on the host
+            # under /var/snap/microk8s/common/prompcorp-tender-intelligence/
+            - name: project-root
+              mountPath: /project-root
+              readOnly: true
+          readinessProbe:
+            httpGet:
+              path: /health
+              port: http
+            initialDelaySeconds: 10
+            periodSeconds: 10
+            timeoutSeconds: 5
+          livenessProbe:
+            httpGet:
+              path: /health
+              port: http
+            initialDelaySeconds: 30
+            periodSeconds: 20
+            timeoutSeconds: 5
+          resources:
+            requests:
+              cpu: 100m
+              memory: 256Mi
+            limits:
+              cpu: 500m
+              memory: 512Mi
+      volumes:
+        - name: project-root
+          hostPath:
+            path: /var/snap/microk8s/common/prompcorp-tender-intelligence
+            type: DirectoryOrCreate

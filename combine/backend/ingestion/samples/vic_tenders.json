@@ -1,0 +1,36 @@
+[
+  {
+    "tender_id": "VIC-CT-1182",
+    "title": "Health Infrastructure Program Controls Office",
+    "department": "Victorian Health Building Authority",
+    "summary": "Program controls, PMO, and reporting services for a portfolio of health capital works projects.",
+    "description": "Engagement spans schedule controls, executive dashboards, and assurance reporting across a live capital portfolio.",
+    "stage": "open",
+    "url": "https://www.tenders.vic.gov.au/tenders/contract/view.do?id=1182",
+    "published_at": "2026-03-31T09:30:00+11:00",
+    "closes_at": "2026-04-20T16:00:00+11:00",
+    "estimated_value": 5100000,
+    "region": "Melbourne",
+    "category": "Program Management",
+    "tags": ["pmo", "controls", "reporting"],
+    "panel": "Professional Advisory Services",
+    "procurement_unit": "Major Projects"
+  },
+  {
+    "tender_id": "VIC-EDU-1190",
+    "title": "Student Outcomes Data Integration Services",
+    "department": "Department of Education",
+    "summary": "End-to-end data integration and KPI reporting to support student outcome measurement.",
+    "description": "Vendor will design ingestion patterns, semantic models, and leadership-ready dashboards for statewide education reporting.",
+    "stage": "open",
+    "url": "https://www.tenders.vic.gov.au/tenders/contract/view.do?id=1190",
+    "published_at": "2026-04-02T07:45:00+11:00",
+    "closes_at": "2026-04-23T14:00:00+11:00",
+    "estimated_value": 3100000,
+    "region": "Melbourne",
+    "category": "Education Analytics",
+    "tags": ["data integration", "kpi", "education"],
+    "panel": "Digital Services",
+    "procurement_unit": "Data Reform"
+  }
+]

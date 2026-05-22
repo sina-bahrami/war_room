@@ -1,0 +1,23 @@
+{
+  "id": "f290ebe8-70a0-43e0-804c-52c5f5b90bdf",
+  "name": "expenditure-on-consultancies-by-the-department-of-justice",
+  "title": "Expenditure on consultancies by the Department of Justice",
+  "notes": "This spreadsheet provides information on consultancy work engaged by the\nDepartment during the 2010 - 2011 financial year, which were valued between\n$10,000 and $100,000. It includes information on the consultant firm, the\npurpose of the consultancy, the duration of the consultancy and expenditure.\nAggregate expenditure information is also provided on consultancy work less\nthan $10,000.\n\n",
+  "organization": "DTF - Corporate and Government Services",
+  "tags": [
+    "DOJ",
+    "economy",
+    "finance",
+    "procurement"
+  ],
+  "num_resources": 1,
+  "resources": [
+    {
+      "id": "5a2da38b-539c-42ee-a6e1-f09161313197",
+      "name": "Expenditure on consultancies by the Department of Justice",
+      "format": "XLSX",
+      "url": "https://www.dtf.vic.gov.au/files/de3d1078-dae8-4043-9f1c-a1cb0106cf88/DOJ-Consultancies.xlsx",
+      "datastore_active": false
+    }
+  ]
+}

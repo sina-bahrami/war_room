@@ -1,0 +1,34 @@
+{
+  "id": "8a1ad782-3d60-4c34-8cd8-f11c031947b7",
+  "name": "fair-jobs-code-registers",
+  "title": "Fair Jobs Code Registers",
+  "notes": "The Fair Jobs Code (code) recognises suppliers and businesses that comply with industrial relations and occupational health and safety laws, and promote the following Fair Jobs Code Standards:\r\n\r\n- Compliance with employment, industrial relations and workplace health & safety obligations\r\n\r\n- Secure employment and job security.\r\n\r\n- Cooperative and constructive relationships between employers, employees and their representatives.\r\n\r\n- Workplace equity and diversity.\r\n\r\n- Supply chain compliance with employment, industrial relations and workplace health and safety.\r\n\r\n\r\nThe code applies to:\r\n\r\n- a supplier of goods, services or works, including construction works, tendering for: \r\n  a threshold procurement contract (contract valued at $1 million or more exclusive of GST),\r\n  a high value procurement contract (contract valued at $20 million or more exclusive of GST),\r\n  a significant subcontractor (where the head supplier has tendered for a threshold procurement contract and the subcontract is valued at $1 million or more exclusive of GST).\r\n\r\n- a business applying for a significant business expansion grant (grant valued at $500,000 or more exclusive of GST and where a key milestone of the grant agreement specifies that the business will increase or retain the number of employees engaged by the business). This includes competitive grants delivered through grant programs, direct allocation grants and negotiated grants.\r\n\r\n- all standing offer arrangements, including State Purchase Contracts, Sole Entity Purchase Contracts, and supplier panels and registers\r\n\r\n- all Victorian Government departments, agencies and public bodies (Agencies) that manage threshold procurement contracts, high value procurement contracts and significant business expansion grants.\r\n\r\nSuppliers interested in tendering for Victorian Government threshold procurements and businesses seeking significant business expansion grants must hold a Fair Jobs Code pre-assessment certificate. \r\n\r\nA pre-assessment certificate demonstrates a supplier/business has a history of compliance with existing industrial relations and workplace health and safety laws, as specified under the code, making them eligible to be considered for a threshold procurement contract, high value procurement contract or significant business expansion grant.\r\n\r\nThe supplier or business must hold a valid pre-assessment certificate, for the life of the contract or grant period.",
+  "organization": "Department of Jobs, Skills, Industry and Regions",
+  "tags": [
+    "Business",
+    "Business grant",
+    "Fair jobs code",
+    "Fair jobs code plan addendum",
+    "Fair jobs code standards",
+    "Fair jobs code unit",
+    "Pre assessment certificates",
+    "Procurement"
+  ],
+  "num_resources": 2,
+  "resources": [
+    {
+      "id": "0cf2ea00-0fa2-45e3-952f-99c2277c1fe8",
+      "name": "Fair Jobs Code certificate register CSV",
+      "format": "CSV",
+      "url": "https://fjc-vic-gov.my.salesforce-sites.com/downloadCertExport",
+      "datastore_active": false
+    },
+    {
+      "id": "be0c32b3-48ff-440b-849a-b73048d44c2d",
+      "name": "Fair Jobs Code application register CSV",
+      "format": "CSV",
+      "url": "https://fjc-vic-gov.my.salesforce-sites.com/downloadApplicationExport",
+      "datastore_active": false
+    }
+  ]
+}

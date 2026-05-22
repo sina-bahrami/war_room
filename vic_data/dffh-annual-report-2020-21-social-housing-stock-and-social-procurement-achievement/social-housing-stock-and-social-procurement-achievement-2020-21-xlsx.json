@@ -1,0 +1,252 @@
+{
+  "resource_id": "468d3098-e7dd-4b87-b900-3924191f1d1e",
+  "resource_name": "Social housing stock and Social procurement achievement 2020-21 XLSX",
+  "format": "xlsx",
+  "source_url": "https://www.dffh.vic.gov.au/social-housing-stock-and-social-procurement-achievement-dffh-2021-21-machine-readable-datasets",
+  "sheets": {
+    "Contents": [
+      {
+        "Department of Families, Fairness and Housing 2020-21 Annual Report – machine readable dataset": "Social Procurement Framework"
+      },
+      {
+        "Department of Families, Fairness and Housing 2020-21 Annual Report – machine readable dataset": "Contents"
+      },
+      {
+        "Department of Families, Fairness and Housing 2020-21 Annual Report – machine readable dataset": "Social Housing Stock"
+      },
+      {
+        "Department of Families, Fairness and Housing 2020-21 Annual Report – machine readable dataset": "Social Procurement Framework"
+      },
+      {
+        "Department of Families, Fairness and Housing 2020-21 Annual Report – machine readable dataset": null
+      },
+      {
+        "Department of Families, Fairness and Housing 2020-21 Annual Report – machine readable dataset": null
+      },
+      {
+        "Department of Families, Fairness and Housing 2020-21 Annual Report – machine readable dataset": "Accessibility"
+      },
+      {
+        "Department of Families, Fairness and Housing 2020-21 Annual Report – machine readable dataset": "To receive this data in another format, email \"DFFH Corporate Reporting (DFFH)\" <DFFHcorporate.reporting@dffh.vic.gov.au>"
+      },
+      {
+        "Department of Families, Fairness and Housing 2020-21 Annual Report – machine readable dataset": null
+      },
+      {
+        "Department of Families, Fairness and Housing 2020-21 Annual Report – machine readable dataset": null
+      },
+      {
+        "Department of Families, Fairness and Housing 2020-21 Annual Report – machine readable dataset": "Copyright"
+      },
+      {
+        "Department of Families, Fairness and Housing 2020-21 Annual Report – machine readable dataset": null
+      },
+      {
+        "Department of Families, Fairness and Housing 2020-21 Annual Report – machine readable dataset": "With the exception of any images, photographs or branding (including, but not limited to the Victorian Coat of Arms, the Victorian Government logo or the Department of Health logo), this work, Department of Health annual report 2020–21, is licensed under a Creative Commons Attribution 4.0 licence."
+      },
+      {
+        "Department of Families, Fairness and Housing 2020-21 Annual Report – machine readable dataset": "The terms and conditions of this licence, including disclaimer of warranties and limitation of liability are available at Creative Commons Attribution 4.0 International <https://creativecommons.org/licenses/by/4.0/legalcode>."
+      },
+      {
+        "Department of Families, Fairness and Housing 2020-21 Annual Report – machine readable dataset": "You are free to reuse the work under that licence, on the condition that you credit the State of Victoria, Australia (Department of Health) as the author and/or owner of the work, indicate if any changes have been made to the work and comply with the other licence terms."
+      },
+      {
+        "Department of Families, Fairness and Housing 2020-21 Annual Report – machine readable dataset": "In this document, ‘Aboriginal’ refers to both Aboriginal and Torres Strait Islander people. ‘Indigenous’ or ’Koori/Koorie’ is retained when part of the title of a report, program or quotation."
+      },
+      {
+        "Department of Families, Fairness and Housing 2020-21 Annual Report – machine readable dataset": "ISSN 2653-1976 – Online (pdf / word) (2107071)"
+      },
+      {
+        "Department of Families, Fairness and Housing 2020-21 Annual Report – machine readable dataset": "Available at Department of Families, Fairness and Housing annual reports <https://www.dffh.vic.gov.au/publications/annual-reports-department-families-fairness-housing>"
+      }
+    ],
+    "Social Housing Stock": [
+      {
+        "Description": "Stock at 30 June 2019",
+        "Units": 85626.0
+      },
+      {
+        "Description": "Additions Total",
+        "Units": 1097.0
+      },
+      {
+        "Description": "New handovers",
+        "Units": 521.0
+      },
+      {
+        "Description": "Spot Purchase",
+        "Units": 66.0
+      },
+      {
+        "Description": "New short-term leases",
+        "Units": 293.0
+      },
+      {
+        "Description": "Stock online",
+        "Units": 210.0
+      },
+      {
+        "Description": "Transfers",
+        "Units": 7.0
+      },
+      {
+        "Description": "Subtractions Total",
+        "Units": 1612.0
+      },
+      {
+        "Description": "Sales",
+        "Units": 62.0
+      },
+      {
+        "Description": "Demolitions",
+        "Units": 538.0
+      },
+      {
+        "Description": "Short-term lease hand backs",
+        "Units": 140.0
+      },
+      {
+        "Description": "Stock offline",
+        "Units": 554.0
+      },
+      {
+        "Description": "Stock conversion reductions",
+        "Units": 4.0
+      },
+      {
+        "Description": "Transferred",
+        "Units": 314.0
+      },
+      {
+        "Description": "Stock at 30 June 2020",
+        "Units": 85111.0
+      },
+      {
+        "Description": null,
+        "Units": NaN
+      },
+      {
+        "Description": "Notes",
+        "Units": NaN
+      },
+      {
+        "Description": "Data includes Director owned units (including leases and other Director managed units) and community owned units.",
+        "Units": NaN
+      }
+    ],
+    "Social Procurement Framework": [
+      {
+        "Social procurement framework objective": "All",
+        "Outcome": "All",
+        "Metric": "Number of social benefit suppliers engaged during the reporting period",
+        "Number": 91.0,
+        "$ (GST exclusive)": NaN,
+        "Notes": null
+      },
+      {
+        "Social procurement framework objective": "All",
+        "Outcome": "All",
+        "Metric": "Total amount spent with social benefit suppliers during the reporting period",
+        "Number": NaN,
+        "$ (GST exclusive)": 9813512.0,
+        "Notes": null
+      },
+      {
+        "Social procurement framework objective": "All",
+        "Outcome": "All",
+        "Metric": "Total number of suppliers engaged, which are not social benefit suppliers, that have made social procurement commitments in their procurement contracts with the Victorian Government",
+        "Number": 10.0,
+        "$ (GST exclusive)": NaN,
+        "Notes": null
+      },
+      {
+        "Social procurement framework objective": "Opportunities for Victorian Aboriginal people",
+        "Outcome": "Purchasing from Victorian Aboriginal businesses",
+        "Metric": "Total spend with Victorian Aboriginal businesses",
+        "Number": NaN,
+        "$ (GST exclusive)": 1826900.0,
+        "Notes": "A Victorian Aboriginal business must be at least 50 per cent Aboriginal and/or Torres Strait Islander owned, undertaking commercial activity, and operates and has business premises in Victoria."
+      },
+      {
+        "Social procurement framework objective": "Opportunities for Victorian Aboriginal people",
+        "Outcome": "Purchasing from Victorian Aboriginal businesses",
+        "Metric": "Number of Victorian Aboriginal businesses engaged",
+        "Number": 40.0,
+        "$ (GST exclusive)": NaN,
+        "Notes": null
+      },
+      {
+        "Social procurement framework objective": "Opportunities for Victorians with disability",
+        "Outcome": "Purchasing from Victorian social enterprises and Australian disability enterprises",
+        "Metric": "Total spend with Victorian social enterprises led by a mission for people with disability and Australian Disability Enterprises",
+        "Number": NaN,
+        "$ (GST exclusive)": 2943200.0,
+        "Notes": "Victorian social enterprises led by a mission for at least one of five disadvantaged cohorts (long-term unemployed people, disengaged youth, single parents, migrants, refugees and asylum seekers, and workers in transition)."
+      },
+      {
+        "Social procurement framework objective": "Opportunities for Victorians with disability",
+        "Outcome": "Purchasing from Victorian social enterprises and Australian disability enterprises",
+        "Metric": "Number of Victorian social enterprises led by a mission for people with disability and Australian Disability Enterprises engaged",
+        "Number": 24.0,
+        "$ (GST exclusive)": NaN,
+        "Notes": null
+      },
+      {
+        "Social procurement framework objective": "Opportunities for disadvantaged Victorians",
+        "Outcome": "Purchasing from Victorian social enterprises providing job readiness and employment for one of the following:\n(a)\tlong-term unemployed people\n(b)\tdisengaged youth\n(c)\tsingle parents\n(d)\tmigrants\n(e)\trefugees and asylum seekers\n(f)\tworkers in transition",
+        "Metric": "Total spend with Victorian social enterprises led by a mission for the disadvantaged [1]",
+        "Number": NaN,
+        "$ (GST exclusive)": 1684600.0,
+        "Notes": "Victorians that at least fall under one of five disadvantaged cohorts (long-term unemployed people, disengaged people, single parents, migrants and refugees, and workers in transition)."
+      },
+      {
+        "Social procurement framework objective": "Opportunities for disadvantaged Victorians",
+        "Outcome": "Purchasing from Victorian social enterprises providing job readiness and employment for one of the following:\n(a)\tlong-term unemployed people\n(b)\tdisengaged youth\n(c)\tsingle parents\n(d)\tmigrants\n(e)\trefugees and asylum seekers\n(f)\tworkers in transition",
+        "Metric": "Number of Victorian social enterprises led by a mission for the disadvantaged xxii engaged",
+        "Number": 9.0,
+        "$ (GST exclusive)": NaN,
+        "Notes": "Victorians that at least fall under one of five disadvantaged cohorts (long-term unemployed people, disengaged people, single parents, migrants and refugees, and workers in transition)."
+      },
+      {
+        "Social procurement framework objective": "Sustainable Victorian social enterprises and Aboriginal business sectors",
+        "Outcome": "Purchasing from Victorian social enterprises and Aboriginal businesses",
+        "Metric": "Total spend with Victorian Aboriginal businesses",
+        "Number": NaN,
+        "$ (GST exclusive)": 1827000.0,
+        "Notes": "A Victorian Aboriginal business must be at least 50 per cent Aboriginal and/or Torres Strait Islander owned, undertaking commercial activity, and operates and has business premises in Victoria."
+      },
+      {
+        "Social procurement framework objective": "Sustainable Victorian social enterprises and Aboriginal business sectors",
+        "Outcome": "Purchasing from Victorian social enterprises and Aboriginal businesses",
+        "Metric": "Number of Victorian Aboriginal businesses engaged",
+        "Number": 40.0,
+        "$ (GST exclusive)": NaN,
+        "Notes": null
+      },
+      {
+        "Social procurement framework objective": "Sustainable Victorian social enterprises and Aboriginal business sectors",
+        "Outcome": "Purchasing from Victorian social enterprises and Aboriginal businesses",
+        "Metric": "Total spend with other Victorian social enterprises [2]",
+        "Number": NaN,
+        "$ (GST exclusive)": 6888500.0,
+        "Notes": "All types of Victorian social enterprises verified by Social Traders or listed on the Map for Impact, excluding social enterprises that are also Victorian Aboriginal businesses."
+      },
+      {
+        "Social procurement framework objective": "Sustainable Victorian social enterprises and Aboriginal business sectors",
+        "Outcome": "Purchasing from Victorian social enterprises and Aboriginal businesses",
+        "Metric": "Number of other Victorian social enterprises engaged xxiii",
+        "Number": 53.0,
+        "$ (GST exclusive)": NaN,
+        "Notes": "All types of Victorian social enterprises verified by Social Traders or listed on the Map for Impact, excluding social enterprises that are also Victorian Aboriginal businesses."
+      },
+      {
+        "Social procurement framework objective": "Sustainable Victorian social enterprises and Aboriginal business sectors",
+        "Outcome": "Purchasing from Victorian social enterprises and Aboriginal businesses",
+        "Metric": "Percentage of direct Aboriginal supplier engagement (against one per cent Government target)",
+        "Number": 0.0111,
+        "$ (GST exclusive)": NaN,
+        "Notes": null
+      }
+    ]
+  }
+}

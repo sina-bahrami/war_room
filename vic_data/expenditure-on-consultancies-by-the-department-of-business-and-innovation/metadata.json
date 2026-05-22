@@ -1,0 +1,22 @@
+{
+  "id": "847c3375-4475-471a-a9e8-1ad613c0cc9c",
+  "name": "expenditure-on-consultancies-by-the-department-of-business-and-innovation",
+  "title": "Expenditure on consultancies by the Department of Business and Innovation",
+  "notes": "This spreadsheet provides information on consultancy work engaged by the\nDepartment during the 2010 - 2011 financial year, which were valued between\n$10,000 and $100,000. It includes information on the consultant firm, the\npurpose of the consultancy, the duration of the consultancy and expenditure.\nAggregate expenditure information is also provided on consultancy work less\nthan $10,000.\n\n",
+  "organization": "DTF - Corporate and Government Services",
+  "tags": [
+    "economy",
+    "finance",
+    "procurement"
+  ],
+  "num_resources": 1,
+  "resources": [
+    {
+      "id": "bc0ded42-ec1d-4c54-addf-5fca200cce3a",
+      "name": "Expenditure on consultancies by the Department of Business and Innovation",
+      "format": "XLSX",
+      "url": "https://www.dtf.vic.gov.au/files/82c02ceb-22f2-4550-8e73-a1cb0106ac3f/DBI-Consultancies.xlsx",
+      "datastore_active": false
+    }
+  ]
+}

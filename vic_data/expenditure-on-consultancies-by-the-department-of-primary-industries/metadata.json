@@ -1,0 +1,22 @@
+{
+  "id": "d6b0414f-9fc2-4268-af68-92ef5b4a4376",
+  "name": "expenditure-on-consultancies-by-the-department-of-primary-industries",
+  "title": "Expenditure on consultancies by the Department of Primary Industries",
+  "notes": "This spreadsheet provides information on consultancy work engaged by the\nDepartment during the 2010 - 2011 financial year, which were valued between\n$10,000 and $100,000. It includes information on the consultant firm, the\npurpose of the consultancy, the duration of the consultancy and expenditure.\nAggregate expenditure information is also provided on consultancy work less\nthan $10,000.\n\n",
+  "organization": "DTF - Corporate and Government Services",
+  "tags": [
+    "economy",
+    "finance",
+    "procurement"
+  ],
+  "num_resources": 1,
+  "resources": [
+    {
+      "id": "5d99e75f-ae02-43a2-a120-6c85af785bb3",
+      "name": "Expenditure on consultancies by the Department of Primary Industries",
+      "format": "XLSX",
+      "url": "https://www.dtf.vic.gov.au/files/738415b3-a326-49bf-853e-a1cb0106eb20/DPI-Consultancies.xlsx",
+      "datastore_active": false
+    }
+  ]
+}

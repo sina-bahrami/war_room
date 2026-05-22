@@ -1,0 +1,162 @@
+[
+  {
+    "id": "207b3ab1-a9e2-4bdf-9278-387deafee629",
+    "name": "dh-annual-report-2023-24-procurement-including-ict-and-advertising",
+    "title": "DH Annual Report 2023-24 Procurement (including ICT and advertising)",
+    "organization": "Department of Health",
+    "relevance_score": 6,
+    "relevance_reasons": [
+      "title/name",
+      "notes",
+      "tags",
+      "resource names",
+      "organization"
+    ],
+    "has_primary_procurement_signal": true,
+    "considered_relevant": true
+  },
+  {
+    "id": "55162407-b75c-4d32-aee5-dbec75920144",
+    "name": "dffh-annual-report-2020-21-social-housing-stock-and-social-procurement-achievement",
+    "title": "DFFH annual report 2020-21 - Social housing stock and Social procurement achievement",
+    "organization": "Department of Families, Fairness and Housing",
+    "relevance_score": 6,
+    "relevance_reasons": [
+      "title/name",
+      "notes",
+      "tags",
+      "resource names",
+      "organization"
+    ],
+    "has_primary_procurement_signal": true,
+    "considered_relevant": true
+  },
+  {
+    "id": "f290ebe8-70a0-43e0-804c-52c5f5b90bdf",
+    "name": "expenditure-on-consultancies-by-the-department-of-justice",
+    "title": "Expenditure on consultancies by the Department of Justice",
+    "organization": "DTF - Corporate and Government Services",
+    "relevance_score": 6,
+    "relevance_reasons": [
+      "title/name",
+      "notes",
+      "tags",
+      "resource names",
+      "organization"
+    ],
+    "has_primary_procurement_signal": true,
+    "considered_relevant": true
+  },
+  {
+    "id": "d6b0414f-9fc2-4268-af68-92ef5b4a4376",
+    "name": "expenditure-on-consultancies-by-the-department-of-primary-industries",
+    "title": "Expenditure on consultancies by the Department of Primary Industries",
+    "organization": "DTF - Corporate and Government Services",
+    "relevance_score": 6,
+    "relevance_reasons": [
+      "title/name",
+      "notes",
+      "tags",
+      "resource names",
+      "organization"
+    ],
+    "has_primary_procurement_signal": true,
+    "considered_relevant": true
+  },
+  {
+    "id": "9b045aed-36db-4534-9b83-5cd9e67d32b9",
+    "name": "expenditure-on-consultancies-by-the-department-of-transport",
+    "title": "Expenditure on consultancies by the Department of Transport",
+    "organization": "DTF - Corporate and Government Services",
+    "relevance_score": 6,
+    "relevance_reasons": [
+      "title/name",
+      "notes",
+      "tags",
+      "resource names",
+      "organization"
+    ],
+    "has_primary_procurement_signal": true,
+    "considered_relevant": true
+  },
+  {
+    "id": "73186d93-944e-4c1e-ba30-6beaf46cd2c0",
+    "name": "expenditure-on-consultancies-by-the-department-of-health",
+    "title": "Expenditure on consultancies by the Department of Health",
+    "organization": "DTF - Corporate and Government Services",
+    "relevance_score": 6,
+    "relevance_reasons": [
+      "title/name",
+      "notes",
+      "tags",
+      "resource names",
+      "organization"
+    ],
+    "has_primary_procurement_signal": true,
+    "considered_relevant": true
+  },
+  {
+    "id": "6d0c39fb-f57f-4392-9a90-2f54db0e2af9",
+    "name": "expenditure-on-consultancies-by-the-department-of-human-services",
+    "title": "Expenditure on consultancies by the Department of Human Services",
+    "organization": "DTF - Corporate and Government Services",
+    "relevance_score": 6,
+    "relevance_reasons": [
+      "title/name",
+      "notes",
+      "tags",
+      "resource names",
+      "organization"
+    ],
+    "has_primary_procurement_signal": true,
+    "considered_relevant": true
+  },
+  {
+    "id": "de23979a-afdf-46c8-9201-878ac4f2a6ae",
+    "name": "expenditure-on-consultancies-by-the-department-of-planning-and-community-development",
+    "title": "Expenditure on consultancies by the Department of Planning and Community Development",
+    "organization": "DTF - Corporate and Government Services",
+    "relevance_score": 6,
+    "relevance_reasons": [
+      "title/name",
+      "notes",
+      "tags",
+      "resource names",
+      "organization"
+    ],
+    "has_primary_procurement_signal": true,
+    "considered_relevant": true
+  },
+  {
+    "id": "b0ff3bd6-dcf1-4a3f-aa35-6d732b0bbc5f",
+    "name": "expenditure-on-consultancies-by-the-department-of-sustainability-and-environment",
+    "title": "Expenditure on consultancies by the Department of Sustainability and Environment",
+    "organization": "DTF - Corporate and Government Services",
+    "relevance_score": 6,
+    "relevance_reasons": [
+      "title/name",
+      "notes",
+      "tags",
+      "resource names",
+      "organization"
+    ],
+    "has_primary_procurement_signal": true,
+    "considered_relevant": true
+  },
+  {
+    "id": "847c3375-4475-471a-a9e8-1ad613c0cc9c",
+    "name": "expenditure-on-consultancies-by-the-department-of-business-and-innovation",
+    "title": "Expenditure on consultancies by the Department of Business and Innovation",
+    "organization": "DTF - Corporate and Government Services",
+    "relevance_score": 6,
+    "relevance_reasons": [
+      "title/name",
+      "notes",
+      "tags",
+      "resource names",
+      "organization"
+    ],
+    "has_primary_procurement_signal": true,
+    "considered_relevant": true
+  }
+]

@@ -1,0 +1,36 @@
+[
+  {
+    "reference": "QLD-FM-2026-77",
+    "title": "Facilities Performance Intelligence and CAFM Optimisation",
+    "agency": "Department of Housing and Public Works",
+    "summary": "Operational analytics, CAFM reporting uplift, and contractor performance intelligence.",
+    "description": "Scope includes KPI framework design, contractor scorecards, and portfolio-level operational reporting.",
+    "stage": "open",
+    "url": "https://www.hpw.qld.gov.au/procurement/QLD-FM-2026-77",
+    "published_at": "2026-04-01T11:00:00+10:00",
+    "closes_at": "2026-04-19T16:00:00+10:00",
+    "estimated_value": 1750000,
+    "region": "Brisbane",
+    "category": "Facilities Management",
+    "tags": ["cafm", "analytics", "kpi"],
+    "supplier_briefing": "2026-04-08T10:00:00+10:00",
+    "contact": "HPW Procurement"
+  },
+  {
+    "reference": "QLD-DIG-2026-12",
+    "title": "Digital Permitting Data Platform",
+    "agency": "Department of Environment, Tourism, Science and Innovation",
+    "summary": "Data platform and dashboard delivery for environmental permitting workflows.",
+    "description": "Queensland government seeks delivery support for workflow digitisation, pipeline visibility, and executive reporting.",
+    "stage": "qualification",
+    "url": "https://www.hpw.qld.gov.au/procurement/QLD-DIG-2026-12",
+    "published_at": "2026-03-26T13:10:00+10:00",
+    "closes_at": "2026-04-10T16:30:00+10:00",
+    "estimated_value": 4200000,
+    "region": "Brisbane",
+    "category": "Digital Platforms",
+    "tags": ["workflow", "permits", "data platform"],
+    "supplier_briefing": "2026-04-03T09:00:00+10:00",
+    "contact": "Digital Procurement Office"
+  }
+]
