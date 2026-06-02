@@ -5,8 +5,12 @@ from datetime import datetime
 from fastapi import APIRouter, Depends
 from redis.asyncio import Redis
 
-from api.dependencies import get_analytics_service, get_redis
-from api.models.schemas import DashboardSummaryResponse, HealthResponse, SourceHealthResponse
+from api.dependencies import (
+    get_analytics_service,
+    get_redis,
+    require_authenticated_user,
+)
+from api.models.schemas import AuthenticatedUserResponse, DashboardSummaryResponse, HealthResponse, SourceHealthResponse
 from api.services.analytics import AnalyticsService
 
 router = APIRouter(tags=["system"])
@@ -33,6 +37,7 @@ async def health(redis: Redis | None = Depends(get_redis)) -> HealthResponse:
 @router.get("/api/dashboard/summary", response_model=DashboardSummaryResponse)
 async def dashboard_summary(
     analytics: AnalyticsService = Depends(get_analytics_service),
+    _: AuthenticatedUserResponse = Depends(require_authenticated_user),
 ) -> DashboardSummaryResponse:
     return await analytics.get_dashboard_summary()
 
@@ -40,5 +45,6 @@ async def dashboard_summary(
 @router.get("/api/sources/health", response_model=list[SourceHealthResponse])
 async def source_health(
     analytics: AnalyticsService = Depends(get_analytics_service),
+    _: AuthenticatedUserResponse = Depends(require_authenticated_user),
 ) -> list[SourceHealthResponse]:
     return (await analytics.get_dashboard_summary()).source_health

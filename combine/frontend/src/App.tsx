@@ -1,158 +1,148 @@
 import { useEffect, useState } from "react";
-import { BriefcaseBusiness, CalendarClock, Clock3, LogOut, MapPinned, Wallet } from "lucide-react";
-import { DashboardShell } from "./components/DashboardShell";
-import { FilterBar } from "./components/FilterBar";
-import { LoginPage } from "./components/LoginPage";
-import { OverviewCharts } from "./components/OverviewCharts";
-import { SourceHealthTable } from "./components/SourceHealthTable";
-import { StatCard } from "./components/StatCard";
-import { TenderTable } from "./components/TenderTable";
-import { getDashboardSummary, getTenders, triggerIngestion } from "./lib/api";
-import type { DashboardSummary, DashboardView, TenderFilters, TenderRecord } from "./lib/types";
 
-function getInitialView(): DashboardView {
+import { AuthScreen } from "./components/AuthScreen";
+import { DashboardApp } from "./components/DashboardApp";
+import { ApiError, getSession, login, logout, register } from "./lib/api";
+import type { AppRoute, AuthenticatedUser, DashboardView, LoginPayload, RegisterPayload } from "./lib/types";
+
+const DASHBOARD_ROUTES: DashboardView[] = ["active", "upcoming", "recently_closed", "sources"];
+
+function getCurrentRoute(): AppRoute {
   const hash = window.location.hash.replace(/^#\/?/, "");
-  if (hash === "upcoming" || hash === "recently_closed" || hash === "sources") return hash;
-  return "active";
+  if (hash === "login" || hash === "register") {
+    return hash;
+  }
+  if (DASHBOARD_ROUTES.includes(hash as DashboardView)) {
+    return hash as DashboardView;
+  }
+  return "login";
 }
 
-const EMPTY_FILTERS: TenderFilters = {
-  query: "", source: "", status: "", state: "",
-  sector_primary: "", value_band: "", closing_from: "",
-  closing_to: "", value_known: "", view_bucket: "",
-};
+function isDashboardRoute(route: AppRoute): route is DashboardView {
+  return DASHBOARD_ROUTES.includes(route as DashboardView);
+}
 
 export default function App() {
-  const [isAuthenticated, setIsAuthenticated] = useState(() => localStorage.getItem("auth") === "true");
-  const [username, setUsername] = useState(() => localStorage.getItem("username") || "");
-  const [view, setView] = useState<DashboardView>(getInitialView);
-  const [summary, setSummary] = useState<DashboardSummary | null>(null);
-  const [filters, setFilters] = useState<TenderFilters>(EMPTY_FILTERS);
-  const [tenders, setTenders] = useState<TenderRecord[]>([]);
-  const [tenderTotal, setTenderTotal] = useState(0);
-  const [loading, setLoading] = useState(true);
-  const [syncing, setSyncing] = useState(false);
-  const [error, setError] = useState<string | null>(null);
-
-  function handleLogout() {
-    localStorage.removeItem("auth");
-    localStorage.removeItem("token");
-    localStorage.removeItem("username");
-    setIsAuthenticated(false);
-    setUsername("");
-  }
+  const [route, setRoute] = useState<AppRoute>(getCurrentRoute);
+  const [user, setUser] = useState<AuthenticatedUser | null>(null);
+  const [authChecked, setAuthChecked] = useState(false);
+  const [authBusy, setAuthBusy] = useState(false);
+  const [authError, setAuthError] = useState<string | null>(null);
 
   useEffect(() => {
-    const handleHashChange = () => setView(getInitialView());
+    const handleHashChange = () => {
+      setAuthError(null);
+      setRoute(getCurrentRoute());
+    };
     window.addEventListener("hashchange", handleHashChange);
     return () => window.removeEventListener("hashchange", handleHashChange);
   }, []);
 
   useEffect(() => {
-    if (!window.location.hash) window.location.hash = "/active";
-  }, []);
-
-  useEffect(() => {
-    async function loadSummary() {
-      setLoading(true);
-      setError(null);
+    async function loadSession() {
       try {
-        const dashboard = await getDashboardSummary();
-        setSummary(dashboard);
-      } catch (loadError) {
-        setError(loadError instanceof Error ? loadError.message : "Failed to load dashboard");
+        const session = await getSession();
+        setUser(session.user);
+      } catch (error) {
+        if (!(error instanceof ApiError && error.status === 401)) {
+          setAuthError(error instanceof Error ? error.message : "Failed to restore your session.");
+        }
       } finally {
-        setLoading(false);
+        setAuthChecked(true);
       }
     }
-    void loadSummary();
+
+    void loadSession();
   }, []);
 
   useEffect(() => {
-    async function loadTenders() {
-      if (view === "sources") return;
-      try {
-        const response = await getTenders({ ...filters, view_bucket: filters.view_bucket || view });
-        setTenders(response.items);
-        setTenderTotal(response.total);
-      } catch (loadError) {
-        setError(loadError instanceof Error ? loadError.message : "Failed to refresh tenders");
-      }
+    if (!authChecked) {
+      return;
     }
-    void loadTenders();
-  }, [filters, view]);
 
-  async function handleSync() {
-    setSyncing(true);
-    setError(null);
+    if (!user && isDashboardRoute(route)) {
+      window.location.hash = "/login";
+      return;
+    }
+
+    if (user && !isDashboardRoute(route)) {
+      window.location.hash = "/active";
+    }
+  }, [authChecked, route, user]);
+
+  async function handleLogin(payload: LoginPayload) {
+    setAuthBusy(true);
+    setAuthError(null);
     try {
-      await triggerIngestion();
-      const dashboard = await getDashboardSummary();
-      setSummary(dashboard);
-      if (view !== "sources") {
-        const opportunities = await getTenders({ ...filters, view_bucket: filters.view_bucket || view });
-        setTenders(opportunities.items);
-        setTenderTotal(opportunities.total);
-      }
-    } catch (syncError) {
-      setError(syncError instanceof Error ? syncError.message : "Sync failed");
+      const session = await login(payload);
+      setUser(session.user);
+      window.location.hash = "/active";
+    } catch (error) {
+      setAuthError(error instanceof Error ? error.message : "Sign-in failed.");
     } finally {
-      setSyncing(false);
+      setAuthBusy(false);
     }
   }
 
-  function handleChangeView(nextView: DashboardView) {
-    window.location.hash = `/${nextView}`;
-    setView(nextView);
+  async function handleRegister(payload: RegisterPayload) {
+    setAuthBusy(true);
+    setAuthError(null);
+    try {
+      const session = await register(payload);
+      setUser(session.user);
+      window.location.hash = "/active";
+    } catch (error) {
+      setAuthError(error instanceof Error ? error.message : "Account creation failed.");
+    } finally {
+      setAuthBusy(false);
+    }
   }
 
-  if (!isAuthenticated) {
-    return <LoginPage onLogin={(u) => { setUsername(u); setIsAuthenticated(true); }} />;
+  async function handleLogout() {
+    setAuthBusy(true);
+    setAuthError(null);
+    try {
+      await logout();
+      setUser(null);
+      window.location.hash = "/login";
+    } catch (error) {
+      setAuthError(error instanceof Error ? error.message : "Sign-out failed.");
+    } finally {
+      setAuthBusy(false);
+    }
   }
 
-  if (loading) {
-    return <div className="status-screen">Bootstrapping unified tender dashboard...</div>;
+  if (!authChecked) {
+    return <div className="status-screen">Checking session...</div>;
   }
 
-  if (!summary) {
-    return <div className="status-screen">No summary data available.</div>;
+  if (!user) {
+    return (
+      <AuthScreen
+        mode={route === "register" ? "register" : "login"}
+        busy={authBusy}
+        error={authError}
+        onLogin={handleLogin}
+        onRegister={handleRegister}
+        onSwitchMode={(mode) => {
+          setAuthError(null);
+          window.location.hash = `/${mode}`;
+        }}
+      />
+    );
   }
 
-  const statCards = [
-    { label: "Total Opportunities", value: String(summary.total_opportunities), helper: "Unified Australian-market snapshot", icon: BriefcaseBusiness },
-    { label: "Active Bids", value: String(summary.active_bids), helper: "Currently active opportunities", icon: Clock3 },
-    { label: "Upcoming Bids", value: String(summary.upcoming_bids), helper: "Forecast or soon-to-open opportunities", icon: CalendarClock },
-    { label: "Recently Closed", value: String(summary.recently_closed), helper: "Recently closed market activity", icon: MapPinned },
-    { label: "Known Value", value: String(summary.known_value_records), helper: "Records with estimated contract value", icon: Wallet },
-  ];
+  const dashboardView = isDashboardRoute(route) ? route : "active";
 
   return (
-    <DashboardShell view={view} onChangeView={handleChangeView} generatedAt={summary.generated_at}>
-      {error && <section className="banner banner--error">{error}</section>}
-      <div style={{ display:"flex", justifyContent:"flex-end", alignItems:"center", gap:"0.75rem", marginBottom:"1rem" }}>
-        <span style={{ color:"#94a3b8", fontSize:"0.9rem" }}>👤 {username}</span>
-        <button onClick={handleLogout} style={{ display:"flex", alignItems:"center", gap:"0.4rem", padding:"0.4rem 0.9rem", borderRadius:"6px", background:"#1e293b", color:"#f87171", border:"1px solid #334155", cursor:"pointer", fontSize:"0.85rem" }}>
-          <LogOut size={14} /> Sign Out
-        </button>
-      </div>
-      <section className="stats-grid stats-grid--five">
-        {statCards.map(({ label, value, helper, icon: Icon }) => (
-          <div key={label} className="stat-card-wrap">
-            <div className="stat-card-wrap__icon"><Icon size={18} /></div>
-            <StatCard label={label} value={value} helper={helper} />
-          </div>
-        ))}
-      </section>
-      {view !== "sources" && (
-        <>
-          <FilterBar filters={filters} onChange={setFilters} options={summary.filter_options} />
-          <OverviewCharts sectorData={summary.category_breakdown} sourceData={summary.source_breakdown} stateData={summary.state_breakdown} />
-          <TenderTable items={tenders} total={tenderTotal} />
-        </>
-      )}
-      {view === "sources" && (
-        <SourceHealthTable items={summary.source_health} isSyncing={syncing} onSync={handleSync} />
-      )}
-    </DashboardShell>
+    <DashboardApp
+      user={user}
+      view={dashboardView}
+      onChangeView={(view) => {
+        setAuthError(null);
+        window.location.hash = `/${view}`;
+      }}
+      onLogout={handleLogout}
+    />
   );
 }

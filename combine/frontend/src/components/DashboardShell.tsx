@@ -1,6 +1,6 @@
 import type { ReactNode } from "react";
 import { Activity, Building2, CalendarClock, CheckCheck, DatabaseZap } from "lucide-react";
-import type { DashboardView } from "../lib/types";
+import type { AuthenticatedUser, DashboardView } from "../lib/types";
 
 const NAV_ITEMS: Array<{ key: DashboardView; label: string; icon: typeof Activity }> = [
   { key: "active", label: "Active Bids", icon: Activity },
@@ -13,6 +13,8 @@ interface DashboardShellProps {
   view: DashboardView;
   onChangeView: (view: DashboardView) => void;
   generatedAt: string | null;
+  user: AuthenticatedUser;
+  onLogout: () => Promise<void>;
   children: ReactNode;
 }
 
@@ -20,6 +22,8 @@ export function DashboardShell({
   view,
   onChangeView,
   generatedAt,
+  user,
+  onLogout,
   children,
 }: DashboardShellProps) {
   return (
@@ -33,13 +37,28 @@ export function DashboardShell({
             for active bids, upcoming bids, recently closed work, and source-health tracking.
           </p>
         </div>
-        <div className="hero__stamp">
-          <Building2 size={18} />
-          <div>
-            <div className="hero__stamp-label">Last refresh</div>
-            <div className="hero__stamp-value">
-              {generatedAt ? new Date(generatedAt).toLocaleString() : "Waiting for ingest"}
+        <div className="hero__rail">
+          <div className="hero__stamp">
+            <Building2 size={18} />
+            <div>
+              <div className="hero__stamp-label">Last refresh</div>
+              <div className="hero__stamp-value">
+                {generatedAt ? new Date(generatedAt).toLocaleString() : "Waiting for ingest"}
+              </div>
             </div>
+          </div>
+
+          <div className="hero__account">
+            <div className="hero__account-copy">
+              <div className="hero__stamp-label">Signed in</div>
+              <div className="hero__account-name">{user.name}</div>
+              <div className="hero__account-email">
+                {user.is_admin ? "Administrator" : user.email}
+              </div>
+            </div>
+            <button type="button" className="ghost-button" onClick={() => void onLogout()}>
+              Sign Out
+            </button>
           </div>
         </div>
       </header>

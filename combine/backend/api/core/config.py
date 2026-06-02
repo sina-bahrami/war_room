@@ -20,6 +20,9 @@ class Settings(BaseSettings):
     allowed_origins: str = "http://localhost:8080"
     ingestion_interval_seconds: int = 900
     enable_sample_data: bool = True
+    session_secret_key: str = "change-this-session-secret"
+    session_cookie_name: str = "prompcorp_session"
+    session_max_age_seconds: int = 43200
 
     austender_source_url: str = ""
     nsw_etendering_source_url: str = ""

@@ -25,6 +25,21 @@ CREATE TABLE IF NOT EXISTS source_runs (
 CREATE INDEX IF NOT EXISTS idx_source_runs_source_started
   ON source_runs (source_id, started_at DESC);
 
+CREATE TABLE IF NOT EXISTS users (
+  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+  name TEXT NOT NULL,
+  email TEXT NOT NULL,
+  login_name TEXT,
+  password_hash TEXT NOT NULL,
+  is_admin BOOLEAN NOT NULL DEFAULT FALSE,
+  created_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+  updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
+);
+
+CREATE UNIQUE INDEX IF NOT EXISTS uq_users_email ON users (email);
+CREATE UNIQUE INDEX IF NOT EXISTS uq_users_login_name ON users (login_name);
+CREATE INDEX IF NOT EXISTS idx_users_created_at ON users (created_at DESC);
+
 CREATE TABLE IF NOT EXISTS tenders (
   id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
   source_id TEXT NOT NULL,

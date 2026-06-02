@@ -1,54 +1,86 @@
 from __future__ import annotations
-from datetime import datetime, timedelta
-from fastapi import APIRouter, HTTPException, status
-from pydantic import BaseModel
-from passlib.context import CryptContext
-from jose import jwt
 
-SECRET_KEY = "prompcorp-war-room-secret-key-2026"
-ALGORITHM = "HS256"
-ACCESS_TOKEN_EXPIRE_MINUTES = 60 * 24
+from fastapi import APIRouter, Depends, HTTPException, Request, Response, status
 
-pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
-
-# In-memory user store (simple stub)
-users_db: dict[str, str] = {
-    "admin": pwd_context.hash("prompcorp123")
-}
+from api.dependencies import (
+    SESSION_USER_ID_KEY,
+    get_auth_service,
+    require_authenticated_user,
+)
+from api.models.schemas import (
+    AuthSessionResponse,
+    AuthenticatedUserResponse,
+    LoginRequest,
+    RegisterRequest,
+)
+from api.services.auth import (
+    AuthService,
+    DuplicateEmailError,
+    InvalidCredentialsError,
+    InvalidEmailError,
+    InvalidNameError,
+)
 
 router = APIRouter(prefix="/api/auth", tags=["auth"])
 
-class RegisterRequest(BaseModel):
-    username: str
-    password: str
 
-class LoginRequest(BaseModel):
-    username: str
-    password: str
+def _start_session(request: Request, user: AuthenticatedUserResponse) -> None:
+    request.session.clear()
+    request.session[SESSION_USER_ID_KEY] = user.id
 
-class TokenResponse(BaseModel):
-    access_token: str
-    token_type: str
-    username: str
 
-def create_token(username: str) -> str:
-    expire = datetime.utcnow() + timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES)
-    return jwt.encode({"sub": username, "exp": expire}, SECRET_KEY, algorithm=ALGORITHM)
+@router.post("/login", response_model=AuthSessionResponse)
+async def login(
+    payload: LoginRequest,
+    request: Request,
+    auth_service: AuthService = Depends(get_auth_service),
+) -> AuthSessionResponse:
+    try:
+        user = await auth_service.authenticate(
+            identifier=payload.identifier,
+            password=payload.password,
+        )
+    except InvalidCredentialsError as exc:
+        raise HTTPException(
+            status_code=status.HTTP_401_UNAUTHORIZED,
+            detail=str(exc),
+        ) from exc
 
-@router.post("/register", response_model=TokenResponse)
-async def register(req: RegisterRequest):
-    if req.username in users_db:
-        raise HTTPException(status_code=400, detail="Username already exists")
-    if len(req.password) < 6:
-        raise HTTPException(status_code=400, detail="Password must be at least 6 characters")
-    users_db[req.username] = pwd_context.hash(req.password)
-    token = create_token(req.username)
-    return TokenResponse(access_token=token, token_type="bearer", username=req.username)
+    _start_session(request, user)
+    return AuthSessionResponse(authenticated=True, user=user)
 
-@router.post("/login", response_model=TokenResponse)
-async def login(req: LoginRequest):
-    hashed = users_db.get(req.username)
-    if not hashed or not pwd_context.verify(req.password, hashed):
-        raise HTTPException(status_code=401, detail="Invalid username or password")
-    token = create_token(req.username)
-    return TokenResponse(access_token=token, token_type="bearer", username=req.username)
+
+@router.post("/register", response_model=AuthSessionResponse, status_code=status.HTTP_201_CREATED)
+async def register(
+    payload: RegisterRequest,
+    request: Request,
+    auth_service: AuthService = Depends(get_auth_service),
+) -> AuthSessionResponse:
+    try:
+        user = await auth_service.create_user(
+            name=payload.name,
+            email=payload.email,
+            password=payload.password,
+        )
+    except DuplicateEmailError as exc:
+        raise HTTPException(status_code=status.HTTP_409_CONFLICT, detail=str(exc)) from exc
+    except InvalidNameError as exc:
+        raise HTTPException(status_code=status.HTTP_422_UNPROCESSABLE_ENTITY, detail=str(exc)) from exc
+    except InvalidEmailError as exc:
+        raise HTTPException(status_code=status.HTTP_422_UNPROCESSABLE_ENTITY, detail=str(exc)) from exc
+
+    _start_session(request, user)
+    return AuthSessionResponse(authenticated=True, user=user)
+
+
+@router.get("/session", response_model=AuthSessionResponse)
+async def get_session(
+    user: AuthenticatedUserResponse = Depends(require_authenticated_user),
+) -> AuthSessionResponse:
+    return AuthSessionResponse(authenticated=True, user=user)
+
+
+@router.post("/logout", status_code=status.HTTP_204_NO_CONTENT)
+async def logout(request: Request) -> Response:
+    request.session.clear()
+    return Response(status_code=status.HTTP_204_NO_CONTENT)

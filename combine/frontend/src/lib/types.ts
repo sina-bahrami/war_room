@@ -1,4 +1,5 @@
 export type DashboardView = "active" | "upcoming" | "recently_closed" | "sources";
+export type AppRoute = DashboardView | "login" | "register";
 
 export interface CountBucket {
   label: string;
@@ -105,6 +106,31 @@ export interface DashboardSummary {
   closing_soon_items: TenderRecord[];
   featured_pipeline: TenderRecord[];
   generated_at: string;
+}
+
+export interface AuthenticatedUser {
+  id: string;
+  name: string;
+  email: string;
+  login_name: string | null;
+  is_admin: boolean;
+  created_at: string;
+}
+
+export interface AuthSessionResponse {
+  authenticated: boolean;
+  user: AuthenticatedUser;
+}
+
+export interface LoginPayload {
+  identifier: string;
+  password: string;
+}
+
+export interface RegisterPayload {
+  name: string;
+  email: string;
+  password: string;
 }
 
 export interface TenderFilters {

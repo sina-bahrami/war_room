@@ -4,9 +4,10 @@ interface SourceHealthTableProps {
   items: SourceHealth[];
   isSyncing: boolean;
   onSync: () => void;
+  canSync: boolean;
 }
 
-export function SourceHealthTable({ items, isSyncing, onSync }: SourceHealthTableProps) {
+export function SourceHealthTable({ items, isSyncing, onSync, canSync }: SourceHealthTableProps) {
   return (
     <section className="panel">
       <div className="panel__header">
@@ -14,9 +15,13 @@ export function SourceHealthTable({ items, isSyncing, onSync }: SourceHealthTabl
           <h2>Source Health and Snapshot Coverage</h2>
           <p>Top-level source health from the unified war room JSON snapshot.</p>
         </div>
-        <button type="button" className="primary-button" onClick={onSync} disabled={isSyncing}>
-          {isSyncing ? "Syncing..." : "Run Ingestion"}
-        </button>
+        {canSync ? (
+          <button type="button" className="primary-button" onClick={onSync} disabled={isSyncing}>
+            {isSyncing ? "Syncing..." : "Run Ingestion"}
+          </button>
+        ) : (
+          <span className="source-health-note">Admin access is required to run ingestion.</span>
+        )}
       </div>
       <div className="table-wrap">
         <table className="tender-table">

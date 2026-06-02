@@ -11,6 +11,31 @@ class CountBucket(BaseModel):
     value: int
 
 
+class AuthenticatedUserResponse(BaseModel):
+    id: str
+    name: str
+    email: str
+    login_name: str | None = None
+    is_admin: bool
+    created_at: datetime
+
+
+class LoginRequest(BaseModel):
+    identifier: str = Field(min_length=1, max_length=255)
+    password: str = Field(min_length=1, max_length=255)
+
+
+class RegisterRequest(BaseModel):
+    name: str = Field(min_length=1, max_length=120)
+    email: str = Field(min_length=3, max_length=255)
+    password: str = Field(min_length=4, max_length=255)
+
+
+class AuthSessionResponse(BaseModel):
+    authenticated: bool
+    user: AuthenticatedUserResponse
+
+
 class TenderResponse(BaseModel):
     id: str
     source: str = ""

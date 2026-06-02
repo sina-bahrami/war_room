@@ -1,13 +1,66 @@
-import type { DashboardSummary, TenderFilters, TenderListResponse } from "./types";
+import type {
+  AuthSessionResponse,
+  DashboardSummary,
+  LoginPayload,
+  RegisterPayload,
+  TenderFilters,
+  TenderListResponse,
+} from "./types";
 
 const API_BASE = import.meta.env.VITE_API_BASE_URL || "/api";
 
-async function fetchJson<T>(path: string): Promise<T> {
-  const response = await fetch(`${API_BASE}${path}`);
+export class ApiError extends Error {
+  status: number;
+
+  constructor(message: string, status: number) {
+    super(message);
+    this.name = "ApiError";
+    this.status = status;
+  }
+}
+
+async function readErrorMessage(response: Response): Promise<string> {
+  try {
+    const payload = await response.clone().json() as { detail?: string };
+    if (payload.detail) {
+      return payload.detail;
+    }
+  } catch {
+    // Ignore JSON parse failures and use a generic fallback instead.
+  }
+  return `Request failed: ${response.status}`;
+}
+
+async function fetchJson<T>(path: string, init: RequestInit = {}): Promise<T> {
+  const headers = new Headers(init.headers ?? {});
+  if (init.body && !headers.has("Content-Type")) {
+    headers.set("Content-Type", "application/json");
+  }
+  const response = await fetch(`${API_BASE}${path}`, {
+    credentials: "include",
+    ...init,
+    headers,
+  });
   if (!response.ok) {
-    throw new Error(`Request failed: ${response.status}`);
+    throw new ApiError(await readErrorMessage(response), response.status);
   }
   return response.json() as Promise<T>;
+}
+
+async function send(path: string, init: RequestInit = {}): Promise<Response> {
+  const headers = new Headers(init.headers ?? {});
+  if (init.body && !headers.has("Content-Type")) {
+    headers.set("Content-Type", "application/json");
+  }
+  const response = await fetch(`${API_BASE}${path}`, {
+    credentials: "include",
+    ...init,
+    headers,
+  });
+  if (!response.ok) {
+    throw new ApiError(await readErrorMessage(response), response.status);
+  }
+  return response;
 }
 
 export async function getDashboardSummary(): Promise<DashboardSummary> {
@@ -38,10 +91,27 @@ export async function getTenders(
 
 export async function triggerIngestion(source = ""): Promise<void> {
   const suffix = source ? `?source=${encodeURIComponent(source)}` : "";
-  const response = await fetch(`${API_BASE}/tenders/admin/run-ingestion${suffix}`, {
+  await send(`/tenders/admin/run-ingestion${suffix}`, { method: "POST" });
+}
+
+export async function login(payload: LoginPayload): Promise<AuthSessionResponse> {
+  return fetchJson<AuthSessionResponse>("/auth/login", {
     method: "POST",
+    body: JSON.stringify(payload),
   });
-  if (!response.ok) {
-    throw new Error(`Ingestion failed: ${response.status}`);
-  }
+}
+
+export async function register(payload: RegisterPayload): Promise<AuthSessionResponse> {
+  return fetchJson<AuthSessionResponse>("/auth/register", {
+    method: "POST",
+    body: JSON.stringify(payload),
+  });
+}
+
+export async function getSession(): Promise<AuthSessionResponse> {
+  return fetchJson<AuthSessionResponse>("/auth/session");
+}
+
+export async function logout(): Promise<void> {
+  await send("/auth/logout", { method: "POST" });
 }
