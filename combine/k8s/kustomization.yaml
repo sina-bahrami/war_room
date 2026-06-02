@@ -19,6 +19,6 @@ resources:
 configMapGenerator:
   - name: postgres-init-sql
     files:
-      - init.sql=../backend/db/init.sql
+      - init.sql=init.sql
 generatorOptions:
   disableNameSuffixHash: true

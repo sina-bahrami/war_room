@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react";
-import { BriefcaseBusiness, CalendarClock, Clock3, MapPinned, Wallet } from "lucide-react";
+import { BriefcaseBusiness, CalendarClock, Clock3, LogOut, MapPinned, Wallet } from "lucide-react";
 import { DashboardShell } from "./components/DashboardShell";
 import { FilterBar } from "./components/FilterBar";
+import { LoginPage } from "./components/LoginPage";
 import { OverviewCharts } from "./components/OverviewCharts";
 import { SourceHealthTable } from "./components/SourceHealthTable";
 import { StatCard } from "./components/StatCard";
@@ -11,26 +12,19 @@ import type { DashboardSummary, DashboardView, TenderFilters, TenderRecord } fro
 
 function getInitialView(): DashboardView {
   const hash = window.location.hash.replace(/^#\/?/, "");
-  if (hash === "upcoming" || hash === "recently_closed" || hash === "sources") {
-    return hash;
-  }
+  if (hash === "upcoming" || hash === "recently_closed" || hash === "sources") return hash;
   return "active";
 }
 
 const EMPTY_FILTERS: TenderFilters = {
-  query: "",
-  source: "",
-  status: "",
-  state: "",
-  sector_primary: "",
-  value_band: "",
-  closing_from: "",
-  closing_to: "",
-  value_known: "",
-  view_bucket: "",
+  query: "", source: "", status: "", state: "",
+  sector_primary: "", value_band: "", closing_from: "",
+  closing_to: "", value_known: "", view_bucket: "",
 };
 
 export default function App() {
+  const [isAuthenticated, setIsAuthenticated] = useState(() => localStorage.getItem("auth") === "true");
+  const [username, setUsername] = useState(() => localStorage.getItem("username") || "");
   const [view, setView] = useState<DashboardView>(getInitialView);
   const [summary, setSummary] = useState<DashboardSummary | null>(null);
   const [filters, setFilters] = useState<TenderFilters>(EMPTY_FILTERS);
@@ -40,6 +34,14 @@ export default function App() {
   const [syncing, setSyncing] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
+  function handleLogout() {
+    localStorage.removeItem("auth");
+    localStorage.removeItem("token");
+    localStorage.removeItem("username");
+    setIsAuthenticated(false);
+    setUsername("");
+  }
+
   useEffect(() => {
     const handleHashChange = () => setView(getInitialView());
     window.addEventListener("hashchange", handleHashChange);
@@ -47,9 +49,7 @@ export default function App() {
   }, []);
 
   useEffect(() => {
-    if (!window.location.hash) {
-      window.location.hash = "/active";
-    }
+    if (!window.location.hash) window.location.hash = "/active";
   }, []);
 
   useEffect(() => {
@@ -65,27 +65,20 @@ export default function App() {
         setLoading(false);
       }
     }
-
     void loadSummary();
   }, []);
 
   useEffect(() => {
     async function loadTenders() {
-      if (view === "sources") {
-        return;
-      }
+      if (view === "sources") return;
       try {
-        const response = await getTenders({
-          ...filters,
-          view_bucket: filters.view_bucket || view,
-        });
+        const response = await getTenders({ ...filters, view_bucket: filters.view_bucket || view });
         setTenders(response.items);
         setTenderTotal(response.total);
       } catch (loadError) {
         setError(loadError instanceof Error ? loadError.message : "Failed to refresh tenders");
       }
     }
-
     void loadTenders();
   }, [filters, view]);
 
@@ -97,10 +90,7 @@ export default function App() {
       const dashboard = await getDashboardSummary();
       setSummary(dashboard);
       if (view !== "sources") {
-        const opportunities = await getTenders({
-          ...filters,
-          view_bucket: filters.view_bucket || view,
-        });
+        const opportunities = await getTenders({ ...filters, view_bucket: filters.view_bucket || view });
         setTenders(opportunities.items);
         setTenderTotal(opportunities.total);
       }
@@ -116,6 +106,10 @@ export default function App() {
     setView(nextView);
   }
 
+  if (!isAuthenticated) {
+    return <LoginPage onLogin={(u) => { setUsername(u); setIsAuthenticated(true); }} />;
+  }
+
   if (loading) {
     return <div className="status-screen">Bootstrapping unified tender dashboard...</div>;
   }
@@ -125,73 +119,37 @@ export default function App() {
   }
 
   const statCards = [
-    {
-      label: "Total Opportunities",
-      value: String(summary.total_opportunities),
-      helper: "Unified Australian-market snapshot",
-      icon: BriefcaseBusiness,
-    },
-    {
-      label: "Active Bids",
-      value: String(summary.active_bids),
-      helper: "Currently active opportunities",
-      icon: Clock3,
-    },
-    {
-      label: "Upcoming Bids",
-      value: String(summary.upcoming_bids),
-      helper: "Forecast or soon-to-open opportunities",
-      icon: CalendarClock,
-    },
-    {
-      label: "Recently Closed",
-      value: String(summary.recently_closed),
-      helper: "Recently closed market activity",
-      icon: MapPinned,
-    },
-    {
-      label: "Known Value",
-      value: String(summary.known_value_records),
-      helper: "Records with estimated contract value",
-      icon: Wallet,
-    },
+    { label: "Total Opportunities", value: String(summary.total_opportunities), helper: "Unified Australian-market snapshot", icon: BriefcaseBusiness },
+    { label: "Active Bids", value: String(summary.active_bids), helper: "Currently active opportunities", icon: Clock3 },
+    { label: "Upcoming Bids", value: String(summary.upcoming_bids), helper: "Forecast or soon-to-open opportunities", icon: CalendarClock },
+    { label: "Recently Closed", value: String(summary.recently_closed), helper: "Recently closed market activity", icon: MapPinned },
+    { label: "Known Value", value: String(summary.known_value_records), helper: "Records with estimated contract value", icon: Wallet },
   ];
 
   return (
-    <DashboardShell
-      view={view}
-      onChangeView={handleChangeView}
-      generatedAt={summary.generated_at}
-    >
+    <DashboardShell view={view} onChangeView={handleChangeView} generatedAt={summary.generated_at}>
       {error && <section className="banner banner--error">{error}</section>}
-
+      <div style={{ display:"flex", justifyContent:"flex-end", alignItems:"center", gap:"0.75rem", marginBottom:"1rem" }}>
+        <span style={{ color:"#94a3b8", fontSize:"0.9rem" }}>👤 {username}</span>
+        <button onClick={handleLogout} style={{ display:"flex", alignItems:"center", gap:"0.4rem", padding:"0.4rem 0.9rem", borderRadius:"6px", background:"#1e293b", color:"#f87171", border:"1px solid #334155", cursor:"pointer", fontSize:"0.85rem" }}>
+          <LogOut size={14} /> Sign Out
+        </button>
+      </div>
       <section className="stats-grid stats-grid--five">
         {statCards.map(({ label, value, helper, icon: Icon }) => (
           <div key={label} className="stat-card-wrap">
-            <div className="stat-card-wrap__icon">
-              <Icon size={18} />
-            </div>
+            <div className="stat-card-wrap__icon"><Icon size={18} /></div>
             <StatCard label={label} value={value} helper={helper} />
           </div>
         ))}
       </section>
-
       {view !== "sources" && (
         <>
-          <FilterBar
-            filters={filters}
-            onChange={setFilters}
-            options={summary.filter_options}
-          />
-          <OverviewCharts
-            sectorData={summary.category_breakdown}
-            sourceData={summary.source_breakdown}
-            stateData={summary.state_breakdown}
-          />
+          <FilterBar filters={filters} onChange={setFilters} options={summary.filter_options} />
+          <OverviewCharts sectorData={summary.category_breakdown} sourceData={summary.source_breakdown} stateData={summary.state_breakdown} />
           <TenderTable items={tenders} total={tenderTotal} />
         </>
       )}
-
       {view === "sources" && (
         <SourceHealthTable items={summary.source_health} isSyncing={syncing} onSync={handleSync} />
       )}

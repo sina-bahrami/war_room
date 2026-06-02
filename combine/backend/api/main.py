@@ -8,7 +8,7 @@ from redis.asyncio import Redis
 from api.core.config import settings
 from api.core.database import db
 from api.dependencies import repository
-from api.routers import system, tenders
+from api.routers import auth, system, tenders
 from api.services.analytics import AnalyticsService
 
 
@@ -38,5 +38,6 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+app.include_router(auth.router)
 app.include_router(system.router)
 app.include_router(tenders.router)
